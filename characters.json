@@ -1,0 +1,1013 @@
+{
+	"characters": [
+		{
+			"name": "Agielba",
+			"id": 3040017000
+		},
+		
+		{
+			"name": "Albert",
+			"id": 3040045000
+		},
+		
+		{
+			"name": "Aletheia",
+			"id": 3040002000
+		},
+		
+		{
+			"name": "Alexiel",
+			"id": 3040158000
+		},
+		
+		{
+			"name": "Aliza",
+			"id": 3040083000
+		},
+		
+		{
+			"name": "Altair",
+			"id": 3040001000
+		},
+		
+		{
+			"name": "Amira",
+			"id": 3040051000
+		},
+		
+		{
+			"name": "Andira",
+			"id": 3040071000
+		},
+		
+		{
+			"name": "Anila",
+			"id": 3040027000
+		},
+		
+		{
+			"name": "Anila 5*",
+			"id": "3040027000_03"
+		},
+		
+		{
+			"name": "Anne",
+			"id": 3040132000
+		},
+		
+		{
+			"name": "Anre",
+			"id": 3040030000
+		},
+		
+		{
+			"name": "Anre 5*",
+			"id": "3040030000_03"
+		},
+		
+		{
+			"name": "Anthuria",
+			"id": 3040103000
+		},
+		
+		{
+			"name": "Aoidos",
+			"id": 3040076000
+		},
+		
+		{
+			"name": "Aqours First-Years",
+			"id": 3040184000
+		},
+		
+		{
+			"name": "Aqours Second-Years",
+			"id": 3040183000
+		},
+		
+		{
+			"name": "Aqours Third-Years",
+			"id": 3040185000
+		},
+		
+		{
+			"name": "Arriet",
+			"id": 3040058000
+		},
+		
+		{
+			"name": "Arulumaya",
+			"id": 3040019000
+		},
+		
+		{
+			"name": "Arulumaya(Christmas)",
+			"id": 3040104000
+		},
+		
+		{
+			"name": "Agielba",
+			"id": 3040017000
+		},
+		
+		{
+			"name": "Ayer",
+			"id": 3040084000
+		},
+		
+		{
+			"name": "Azazel",
+			"id": 3040137000
+		},
+		
+		{
+			"name": "Baotorda",
+			"id": 3040124000
+		},
+		
+		{
+			"name": "Beatrix",
+			"id": 3040070000
+		},
+		
+		{
+			"name": "Beatrix(Summer)",
+			"id": 3040110000
+		},
+		
+		{
+			"name": "Black Knight",
+			"id": 3040082000
+		},
+		
+		{
+			"name": "Cagliostro",
+			"id": 3040009000
+		},
+		
+		{
+			"name": "Cagliostro(April Fools)",
+			"id": 3710067000
+		},
+		
+		{
+			"name": "Cagliostro(Dark)",
+			"id": 3040120000
+		},
+		
+		{
+			"name": "Cagliostro(Halloween)",
+			"id": 3040062000
+		},
+		
+		{
+			"name": "Cain",
+			"id": 3040171000
+		},
+		
+		{
+			"name": "Carmelina",
+			"id": 3040042000
+		},
+		
+		{
+			"name": "Catherine",
+			"id": 3040074000
+		},
+		
+		{
+			"name": "Cerberus",
+			"id": 3040016000
+		},
+		
+		{
+			"name": "Charioce XVII",
+			"id": 3040144000
+		},
+		
+		{
+			"name": "Charlotta",
+			"id": 3040010000
+		},
+		
+		{
+			"name": "Charlotta(Halloween)",
+			"id": 3040020000
+		},
+		
+		{
+			"name": "Chat Noir",
+			"id": 3040093000
+		},
+		
+		{
+			"name": "Christina",
+			"id": 3040018000
+		},
+		
+		{
+			"name": "Clarisse",
+			"id": 3040046000
+		},
+		
+		{
+			"name": "Clarisse(Holiday)",
+			"id": 3040067000
+		},
+		
+		{
+			"name": "Clarisse(Light)",
+			"id": 3040121000
+		},
+		
+		{
+			"name": "Conan Edogawa",
+			"id": 3040157000
+		},
+		
+		{
+			"name": "Cucouroux",
+			"id": 3040159000
+		},
+		
+		{
+			"name": "Danua(Halloween)",
+			"id": 3040135000
+		},
+		
+		{
+			"name": "Danua(Summer)",
+			"id": 3040055000
+		},
+		
+		{
+			"name": "De La Fille",
+			"id": 3040004000
+		},
+		
+		{
+			"name": "De La Fille(Earth)",
+			"id": 3040113000
+		},
+		
+		{
+			"name": "De La Fille(Summer)",
+			"id": 3040014000
+		},
+		
+		{
+			"name": "Diantha",
+			"id": 3040129000
+		},
+		
+		{
+			"name": "Dorothy and Claudia",
+			"id": 3040134000
+		},
+		
+		{
+			"name": "Drang",
+			"id": 3040119000
+		},
+		
+		{
+			"name": "Eahta",
+			"id": 3040037000
+		},
+		
+		{
+			"name": "Eahta 5*",
+			"id": "3040037000_03"
+		},
+		
+		{
+			"name": "Eugen",
+			"id": 3040077000
+		},
+		
+		{
+			"name": "Eustace",
+			"id": 3040069000
+		},
+		
+		{
+			"name": "Eustace(Halloween)",
+			"id": 3040099000
+		},
+		
+		{
+			"name": "Feena",
+			"id": 3040061000
+		},
+		
+		{
+			"name": "Feower",
+			"id": 3040033000
+		},
+		
+		{
+			"name": "Feower 5*",
+			"id": "3040033000_03"
+		},
+		
+		{
+			"name": "Ferry",
+			"id": 3040073000
+		},
+		
+		{
+			"name": "Fif",
+			"id": 3040034000
+		},
+		
+		{
+			"name": "Fif 5*",
+			"id": "3040034000_03"
+		},
+		
+		{
+			"name": "Forte",
+			"id": 3040086000
+		},
+		
+		{
+			"name": "Freezie",
+			"id": 3040182000
+		},
+		
+		{
+			"name": "Gawain",
+			"id": 3040000000
+		},
+		
+		{
+			"name": "Ghandagoza",
+			"id": 3040052000
+		},
+		
+		{
+			"name": "Ghandagoza 5*",
+			"id": "3040052000_03"
+		},
+		
+		{
+			"name": "Grea",
+			"id": 3040130000
+		},
+		
+		{
+			"name": "Grea(Summer)",
+			"id": 3040179000
+		},
+		
+		{
+			"name": "Hallessena",
+			"id": 3040079000
+		},
+		
+		{
+			"name": "Heles",
+			"id": 3040060000
+		},
+		
+		{
+			"name": "Heles(Summer)",
+			"id": 3040091000
+		},
+		
+		{
+			"name": "Ilsa",
+			"id": 3040148000
+		},
+		
+		{
+			"name": "Ilsa(Summer)",
+			"id": 3040177000
+		},
+		
+		{
+			"name": "Io",
+			"id": 3040065000
+		},
+		
+		{
+			"name": "Io(Summer)",
+			"id": 3040015000
+		},
+		
+		{
+			"name": "Izmir",
+			"id": 3040100000
+		},
+		
+		{
+			"name": "Izmir(Summer)",
+			"id": 3040126000
+		},
+		
+		{
+			"name": "Jeanne d'Arc",
+			"id": 3040040000
+		},
+		
+		{
+			"name": "Jeanne d'Arc 5*",
+			"id": "3040040000_03"
+		},
+		
+		{
+			"name": "Jeanne d'Arc(Dark)",
+			"id": 3040080000
+		},
+		
+		{
+			"name": "Jeanne d'Arc(Summer)",
+			"id": 3040154000
+		},
+		
+		{
+			"name": "Joker",
+			"id": 3040173000
+		},
+		
+		{
+			"name": "Juliet",
+			"id": 3040096000
+		},
+		
+		{
+			"name": "Katalina",
+			"id": 3040054000
+		},
+		
+		{
+			"name": "Katalina(Dark)",
+			"id": 3040118000
+		},
+		
+		{
+			"name": "Korwa",
+			"id": 3040081000
+		},
+		
+		{
+			"name": "Korwa (Summer)",
+			"id": 3040127000
+		},
+		
+		{
+			"name": "Lady Grey",
+			"id": 3040005000
+		},
+		
+		{
+			"name": "Lady Grey(Halloween)",
+			"id": 3040189000
+		},
+		
+		{
+			"name": "Lady Katapillar and Vira",
+			"id": 3040116000
+		},
+		
+		{
+			"name": "Lancelot",
+			"id": 3040023000
+		},
+		
+		{
+			"name": "Lancelot (Wind)",
+			"id": 3040140000
+		},
+		
+		{
+			"name": "Lancelot and Vane",
+			"id": 3040191000
+		},
+		
+		{
+			"name": "Lecia",
+			"id": 3040101000
+		},
+		
+		{
+			"name": "Lennah",
+			"id": "3040021000_03"
+		},
+		
+		{
+			"name": "Levi",
+			"id": 3040142000
+		},
+		
+		{
+			"name": "Levin Sisters",
+			"id": 3040193000
+		},
+		
+		{
+			"name": "Lilele",
+			"id": 3040066000
+		},
+		
+		{
+			"name": "Lily",
+			"id": 3040007000
+		},
+		
+		{
+			"name": "Lucio",
+			"id": 3040106000
+		},
+		
+		{
+			"name": "Lunalu",
+			"id": 3040172000
+		},
+		
+		{
+			"name": "Magisa",
+			"id": 3040011000
+		},
+		
+		{
+			"name": "Mahira",
+			"id": 3040107000
+		},
+		
+		{
+			"name": "Marquiares",
+			"id": 3040108000
+		},
+		
+		{
+			"name": "Mary(Holiday)",
+			"id": 3040143000
+		},
+		
+		{
+			"name": "Medusa",
+			"id": 3040123000
+		},
+		
+		{
+			"name": "Medusa(Valentine)",
+			"id": 3040151000
+		},
+		
+		{
+			"name": "Melissabelle",
+			"id": 3040102000
+		},
+		
+		{
+			"name": "Melleau",
+			"id": 3040022000
+		},
+		
+		{
+			"name": "Metera",
+			"id": 3040012000
+		},
+		
+		{
+			"name": "Metera 5*",
+			"id": "3040012000_03"
+		},
+		
+		{
+			"name": "Metera(Fire)",
+			"id": 3040072000
+		},
+		
+		{
+			"name": "Mikazuki Munechika",
+			"id": 3040131000
+		},
+		
+		{
+			"name": "Naoise(Summer)",
+			"id": 3040178000
+		},
+		
+		{
+			"name": "Narmaya",
+			"id": 3040063000
+		},
+		
+		{
+			"name": "Narmaya 5*",
+			"id": "3040063000_03"
+		},
+		
+		{
+			"name": "Narmaya(Summer)",
+			"id": 3040089000
+		},
+		
+		{
+			"name": "Nemone",
+			"id": 3040085000
+		},
+		
+		{
+			"name": "Nezahualpilli",
+			"id": 3040003000
+		},
+		
+		{
+			"name": "Nicholas",
+			"id": 3040156000
+		},
+		
+		{
+			"name": "Nina Drango",
+			"id": 3040133000
+		},
+		
+		{
+			"name": "Niyon",
+			"id": 3040038000
+		},
+		
+		{
+			"name": "Niyon 5*",
+			"id": "3040038000_03"
+		},
+		
+		{
+			"name": "Olivia",
+			"id": 3040145000
+		},
+		
+		{
+			"name": "Orchid",
+			"id": 3040111000
+		},
+		
+		{
+			"name": "Percival",
+			"id": 3040050000
+		},
+		
+		{
+			"name": "Percival 5*",
+			"id": "3040050000_03"
+		},
+		
+		{
+			"name": "Percival(Summer)",
+			"id": 3040090000
+		},
+		
+		{
+			"name": "Petra",
+			"id": 3040047000
+		},
+		
+		{
+			"name": "Pholia",
+			"id": 3040181000
+		},
+		
+		{
+			"name": "Rackam",
+			"id": 3040059000
+		},
+		
+		{
+			"name": "Razia",
+			"id": 3040109000
+		},
+		
+		{
+			"name": "Robomi",
+			"id": 3040155000
+		},
+		
+		{
+			"name": "Romeo",
+			"id": 3040098000
+		},
+		
+		{
+			"name": "Rosamia",
+			"id": 3040087000
+		},
+		
+		{
+			"name": "Rosetta",
+			"id": 3040068000
+		},
+		
+		{
+			"name": "Rosetta(Holiday)",
+			"id": 3040026000
+		},
+		
+		{
+			"name": "Rosetta(Summer)",
+			"id": 3040176000
+		},
+		
+		{
+			"name": "Sakura Kinomoto",
+			"id": 3040136000
+		},
+		
+		{
+			"name": "Sandalphon ",
+			"id": 3040153000
+		},
+		
+		{
+			"name": "Sara",
+			"id": 3040041000
+		},
+		
+		{
+			"name": "Sarunan",
+			"id": 3040008000
+		},
+		
+		{
+			"name": "Sarunan 5*",
+			"id": "3040008000_03"
+		},
+		
+		{
+			"name": "Sarunan(Dark)",
+			"id": 3040048000
+		},
+		
+		{
+			"name": "Scathacha",
+			"id": 3040122000
+		},
+		
+		{
+			"name": "Scathacha 5*",
+			"id": "3040122000_03"
+		},
+		
+		{
+			"name": "Selfira",
+			"id": 3040175000
+		},
+		
+		{
+			"name": "Seofon",
+			"id": 3040036000
+		},
+		
+		{
+			"name": "Seofon 5*",
+			"id": "3040036000_03"
+		},
+		
+		{
+			"name": "Seox",
+			"id": 3040035000
+		},
+		
+		{
+			"name": "Seox 5*",
+			"id": "3040035000_03"
+		},
+		
+		{
+			"name": "Seruel",
+			"id": 3040013000
+		},
+		
+		{
+			"name": "Seruel 5*",
+			"id": "3040013000_03"
+		},
+		
+		{
+			"name": "Siegfried",
+			"id": 3040025000
+		},
+		
+		{
+			"name": "Siegfried(Summer)",
+			"id": 3040128000
+		},
+		
+		{
+			"name": "Silva",
+			"id": 3040049000
+		},
+		
+		{
+			"name": "Silva 5*",
+			"id": "3040049000_03"
+		},
+		
+		{
+			"name": "Silva(Light)",
+			"id": 3040187000
+		},
+		
+		{
+			"name": "Societte",
+			"id": 3040044000
+		},
+		
+		{
+			"name": "Societte(Fire)",
+			"id": 3040095000
+		},
+		
+		{
+			"name": "Sophia",
+			"id": 3040024000
+		},
+		
+		{
+			"name": "Soriz",
+			"id": 3040170000
+		},
+		
+		{
+			"name": "Sturm",
+			"id": 3040115000
+		},
+		
+		{
+			"name": "Therese",
+			"id": 3040149000
+		},
+		
+		{
+			"name": "Threo",
+			"id": 3040032000
+		},
+		
+		{
+			"name": "Threo 5*",
+			"id": "3040032000_03"
+		},
+		
+		{
+			"name": "Tiamat",
+			"id": 3040152000
+		},
+		
+		{
+			"name": "Tien",
+			"id": 3040039000
+		},
+		
+		{
+			"name": "Tien 5*",
+			"id": "3040039000_03"
+		},
+		
+		{
+			"name": "Tsubasa",
+			"id": 3040180000
+		},
+		
+		{
+			"name": "Tweyen",
+			"id": 3040031000
+		},
+		
+		{
+			"name": "Tweyen 5*",
+			"id": "3040031000_03"
+		},
+		
+		{
+			"name": "Vajra",
+			"id": 3040147000
+		},
+		
+		{
+			"name": "Vane",
+			"id": 3040117000
+		},
+		
+		{
+			"name": "Vania",
+			"id": 3040057000
+		},
+		
+		{
+			"name": "Vaseraga",
+			"id": 3040029000
+		},
+		
+		{
+			"name": "Vaseraga 5*",
+			"id": "3040029000_03"
+		},
+		
+		{
+			"name": "Vaseraga(Earth)",
+			"id": 3040146000
+		},
+		
+		{
+			"name": "Veight",
+			"id": 3040094000
+		},
+		
+		{
+			"name": "Vira",
+			"id": 3040043000
+		},
+		
+		{
+			"name": "Vira(Light)",
+			"id": 3040141000
+		},
+		
+		{
+			"name": "Vira(Summer)",
+			"id": 3040053000
+		},
+		
+		{
+			"name": "Wulf and Renie",
+			"id": 3040174000
+		},
+		
+		{
+			"name": "Yggdrasil",
+			"id": 3040125000
+		},
+		
+		{
+			"name": "Yngwie",
+			"id": 3040088000
+		},
+		
+		{
+			"name": "Yngwie 5*",
+			"id": "3040088000_03"
+		},
+		
+		{
+			"name": "Yodarha",
+			"id": 3040064000
+		},
+		
+		{
+			"name": "Yuel",
+			"id": 3040006000
+		},
+		
+		{
+			"name": "Yuel(Water)",
+			"id": 3040138000
+		},
+		
+		{
+			"name": "Yuisis",
+			"id": 3040105000
+		},
+		
+		{
+			"name": "Yurius",
+			"id": 3040199000
+		},
+		
+		{
+			"name": "Zahlhamelina",
+			"id": 3040075000
+		},
+		
+		{
+			"name": "Zeta",
+			"id": 3040028000
+		},
+		
+		{
+			"name": "Zeta(Dark)",
+			"id": 3040112000
+		},
+		
+		{
+			"name": "Zeta(Summer)",
+			"id": 3040056000
+		},
+		
+		{
+			"name": "Zooey",
+			"id": 3040092000
+		},
+		
+		{
+			"name": "Zooey(Light)",
+			"id": 3040150000
+		},
+		
+		{
+			"name": "Zooey(Promo)",
+			"id": 3040078000
+		}
+	]
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>GBF Sounds</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<script>
+		let data;
+		
+		if(localStorage.gbfCharacters){
+			data = JSON.parse(localStorage.getItem("gbfCharacters"));
+		}else{
+			$.getJSON('https://api.myjson.com/bins/eoit2', function(result){
+				data = result;
+				localStorage.setItem('gbfCharacters', JSON.stringify(data));
+				loadCharacters();
+			});
+		}
+	</script>
+</head>
+
+<style>
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	html{
+		height: 100%;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		background: #104070 url(background.jpg) no-repeat center fixed; 
+		background-size: cover;
+	}
+	body{
+		height: 100%;
+	}
+	.mainContainer{
+		position: relative;
+		margin: auto;
+		max-width: 100%;
+		min-height: 100%;
+		background-color: rgba(64, 64, 64, .4);
+	}
+	.container{
+		background-color: rgba(230, 230, 230, .7); 
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	#start{
+		position: relative;
+		margin: auto;
+		width: 100%;
+		height: 200px;
+		background-color: rgba(0, 0, 0, .8);
+	}
+	#select{
+		display: flex;
+		margin: 16px auto 16px auto;
+	}
+	#charaSelect{
+		font-size: 12pt;
+		margin: auto;
+	}
+	.box{
+		display: flex;
+		margin: auto;
+		height: 40px;
+		width: 250px;
+	}
+	.flex{
+		display: flex;
+	}
+	.grid{
+		display: grid;
+		padding-top: 16px; 
+		padding-bottom: 16px;
+		min-height: 72px;
+		width: 100%;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	}
+	p{
+		margin: auto;
+		color: black;
+		font-size: 15px;
+		text-align: center;
+	}
+	p2{
+		margin: auto 20px auto 20px;
+		color: black;
+		font-size: 15px;
+	}
+	input{
+		margin: auto 2px auto 0px;
+		height: 20px;
+		width: 30px;
+	}
+	button{
+		margin: auto 2px auto 0px;
+		width: 24px;
+		height: 24px;
+		background-color: #c4ccd4;
+		border: 2px solid #4d6680;
+	}
+	#foot{
+		position: relative;
+		height: 40px;
+		width: auto;
+		margin-top: 50%;
+		background-color: rgba(0, 0, 0, .7);
+	}
+</style>
+
+<body>
+	<div class="mainContainer">
+		<div style="margin: auto; max-width: 1024px">
+			<div id="start"></div>
+			<div id="select">
+				<select id="charaSelect" name="Character" onchange="changeChara()">
+					<option value="Character">Character</option>
+				</select>
+			</div>
+			
+			<div class="container grid">
+				<div>
+					<div class="box">
+						<div class="box"><p>Them</p></div>
+						<div id="box1" class="box">
+							<input type="text" id="them" value="0" maxlength="2" onchange="getSound('them', 'button1')">
+							<button id="button1" onclick="playSound('them')"></button>
+							<button onclick="prev('them', 'button1')">-</button>
+							<button onclick="next('them', 'button1')">+</button>
+						</div>
+					</div>
+					<div class="box">
+						<div class="box"><p>Us</p></div>
+						<div id="box2" class="box">
+							<input type="text" id="us" value="0" maxlength="2" onchange="getSound('us', 'button2')">
+							<button id="button2" onclick="playSound('us')"></button>
+							<button onclick="prev('us', 'button2')">-</button>
+							<button onclick="next('us', 'button2')">+</button>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="box">
+						<div class="box"><p>Ability_them</p></div>
+						<div id="box3" class="box">
+							<input type="text" id="ability_them" value="0" maxlength="2" onchange="getSound('ability_them', 'button3')">
+							<button id="button3" onclick="playSound('ability_them')"></button>
+							<button onclick="prev('ability_them', 'button3')">-</button>
+							<button onclick="next('ability_them', 'button3')">+</button>
+						</div>
+					</div>
+					<div class="box">
+						<div class="box"><p>Ability_us</p></div>
+						<div id="box4" class="box">
+							<input type="text" id="ability_us" value="0" maxlength="2" onchange="getSound('ability_us', 'button4')">
+							<button id="button4" onclick="playSound('ability_us')"></button>
+							<button onclick="prev('ability_us', 'button4')">-</button>
+							<button onclick="next('ability_us', 'button4')">+</button>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="box">
+						<div class="box"><p>Other</p></div>
+						<div id="box10" class="box">
+							<input type="text" id="v_" value="0" maxlength="3" onchange="getSound('v_', 'button10')">
+							<button id="button10" onclick="playSound('v_')"></button>
+							<button onclick="prev('v_', 'button10')">-</button>
+							<button onclick="next('v_', 'button10')">+</button>
+						</div>
+					</div>
+					<div class="box">
+						<div class="box"><p>Win</p></div>
+						<div id="box5" class="box">
+							<input type="text" id="win" value="0" maxlength="2" onchange="getSound('win', 'button5')">
+							<button id="button5" onclick="playSound('win')"></button>
+							<button onclick="prev('win', 'button5')">-</button>
+							<button onclick="next('win', 'button5')">+</button>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="box">
+						<div class="box"><p>Dying</p></div>
+						<div id="box7" class="box">
+							<input type="text" id="dying" value="0" maxlength="2" onchange="getSound('dying', 'button7')">
+							<button id="button7" onclick="playSound('dying')"></button>
+							<button onclick="prev('dying', 'button7')">-</button>
+							<button onclick="next('dying', 'button7')">+</button>
+						</div>
+					</div>
+					<div class="box">
+						<div class="box"><p>Dead</p></div>
+						<div id="box6" class="box">
+							<input type="text" id="lose" value="0" maxlength="2" onchange="getSound('lose', 'button6')">
+							<button id="button6" onclick="playSound('lose')"></button>
+							<button onclick="prev('lose', 'button6')">-</button>
+							<button onclick="next('lose', 'button6')">+</button>
+						</div>
+					</div>
+				</div>
+					<div class="box">
+						<div class="box"><p>Attack</p></div>
+						<div id="box8" class="box">
+							<input type="text" id="attack" value="0" maxlength="2" onchange="getSound('attack', 'button8')">
+							<button id="button8" onclick="playSound('attack')"></button>
+							<button onclick="prev('attack', 'button8')">-</button>
+							<button onclick="next('attack', 'button8')">+</button>
+						</div>
+					</div>
+					<div class="box">
+						<div class="box"><p>Ready</p></div>
+						<div id="box9" class="box">
+							<input type="text" id="ready" value="0" maxlength="2" onchange="getSound('ready', 'button9')">
+							<button id="button9" onclick="playSound('ready')"></button>
+							<button onclick="prev('ready', 'button9')">-</button>
+							<button onclick="next('ready', 'button9')">+</button>
+						</div>
+					</div>
+					
+					<div class="box">
+						<div class="box"><p>Turnend</p></div>
+							<div id="box11" class="box">
+							<input type="number" id="turnend" value="0" min="1" max="1" onchange="getSound('turnend', 'button11')">
+							<button id="button11" onclick="playSound('turnend')"></button>
+						</div>
+					</div>
+			</div>
+			<div id="foot">zz</div>
+		</div>
+		
+	</div>
+	
+</body>
+
+<script>
+	window.onload = function(){
+		if(data) loadCharacters();
+	}
+</script>
+
+
+</html>
+
+
+
+
+
