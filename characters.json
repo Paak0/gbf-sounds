@@ -6,6 +6,11 @@
 		},
 		
 		{
+			"name": "Aglovale",
+			"id": 3040192000
+		},
+		
+		{
 			"name": "Albert",
 			"id": 3040045000
 		},
@@ -28,6 +33,11 @@
 		{
 			"name": "Altair",
 			"id": 3040001000
+		},
+		
+		{
+			"name": "Altair 5*",
+			"id": "3040001000_03"
 		},
 		
 		{
@@ -103,11 +113,6 @@
 		{
 			"name": "Arulumaya(Christmas)",
 			"id": 3040104000
-		},
-		
-		{
-			"name": "Agielba",
-			"id": 3040017000
 		},
 		
 		{
@@ -196,6 +201,11 @@
 		},
 		
 		{
+			"name": "Charlotta(Light)",
+			"id": 3040194000
+		},
+		
+		{
 			"name": "Chat Noir",
 			"id": 3040093000
 		},
@@ -228,6 +238,11 @@
 		{
 			"name": "Cucouroux",
 			"id": 3040159000
+		},
+		
+		{
+			"name": "Cure Black and Cure White",
+			"id": 3040188000
 		},
 		
 		{
@@ -283,6 +298,11 @@
 		{
 			"name": "Eugen",
 			"id": 3040077000
+		},
+		
+		{
+			"name": "Europa",
+			"id": 3040190000
 		},
 		
 		{
@@ -583,6 +603,11 @@
 		{
 			"name": "Mikazuki Munechika",
 			"id": 3040131000
+		},
+		
+		{
+			"name": "Monika",
+			"id": 3040186000
 		},
 		
 		{
