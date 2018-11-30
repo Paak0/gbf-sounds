@@ -8,16 +8,14 @@
 	<script src="script.js"></script>
 	<script>
 		let data;
+		let count = 0;
 		
 		if(localStorage.gbfCharacters){
 			data = JSON.parse(localStorage.getItem("gbfCharacters"));
+			count = data.characters.length;
+			if(count < 207) updateData();
 		}else{
-			//$.getJSON('https://api.myjson.com/bins/16x10q', function(result){
-			$.getJSON('characters.json', function(result){
-				data = result;
-				localStorage.setItem('gbfCharacters', JSON.stringify(data));
-				loadCharacters();
-			});
+			updateData();
 		}
 	</script>
 </head>
