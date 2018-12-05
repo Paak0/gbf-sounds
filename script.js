@@ -227,8 +227,8 @@ function showAllSounds(){
 }
 
 function updateData(){
-	$.getJSON('https://api.myjson.com/bins/mtpo2', function(result){
-	//$.getJSON('characters.json', function(result){
+	//$.getJSON('https://api.myjson.com/bins/mtpo2', function(result){
+	$.getJSON('characters.json', function(result){
 		data = result;
 		count = data.characters.length;
 		localStorage.setItem('gbfCharacters', JSON.stringify(data));
