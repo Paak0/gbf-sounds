@@ -2,642 +2,770 @@
 	"characters": [
 		{
 			"name": "Agielba",
-			"id": 3040017000
+			"id": 3040017000,
+			"sounds": [null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Aglovale",
-			"id": 3040192000
+			"id": 3040192000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up",null,"introduce","evolution","formation","archive","to_player","healed","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Albert",
-			"id": 3040045000
+			"id": 3040045000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Aletheia",
-			"id": 3040002000
+			"id": 3040002000,
+			"sounds":[null,null,"ability_them","ability_us","mypage",null,"win","other"]
 		},
 		
 		{
 			"name": "Alexiel",
-			"id": 3040158000
+			"id": 3040158000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,null,"hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Aliza",
-			"id": 3040083000
+			"id": 3040083000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Altair",
-			"id": 3040001000
+			"id": 3040001000,
+			"sounds":[null,null,"ability_them","ability_us","mypage",null,"win","other"]
 		},
 		
 		{
 			"name": "Altair 5*",
-			"id": "3040001000_03"
+			"id": "3040001000_03",
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying",null,null,null,"evolution","formation"]
 		},
 		
 		{
 			"name": "Amira",
-			"id": 3040051000
+			"id": 3040051000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Andira",
-			"id": 3040071000
+			"id": 3040071000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Anila",
-			"id": 3040027000
+			"id": 3040027000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose"]
 		},
 		
 		{
 			"name": "Anila 5*",
-			"id": "3040027000_03"
+			"id": "3040027000_03",
+			"sounds":[null,null,"ability_them","ability_us",null,"cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up",null,"evolution","formation",null,null,null,"hp_down","power_down"]
 		},
 		
 		{
 			"name": "Anne",
-			"id": 3040132000
+			"id": 3040132000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Anre",
-			"id": 3040030000
+			"id": 3040030000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Anre 5*",
-			"id": "3040030000_03"
+			"id": "3040030000_03",
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose"]
 		},
 		
 		{
 			"name": "Anthuria",
-			"id": 3040103000
+			"id": 3040103000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Aoidos",
-			"id": 3040076000
+			"id": 3040076000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Aqours First-Years",
-			"id": 3040184000
+			"id": 3040184000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up",null,null,"evolution","formation","archive","to_player","healed","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Aqours Second-Years",
-			"id": 3040183000
+			"id": 3040183000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up",null,"introduce","evolution","formation","archive","to_player","healed","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Aqours Third-Years",
-			"id": 3040185000
+			"id": 3040185000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up",null,null,"evolution","formation","archive","to_player","healed","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Arriet",
-			"id": 3040058000
+			"id": 3040058000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Arulumaya",
-			"id": 3040019000
+			"id": 3040019000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up",null,"evolution","formation",null,null,null,"hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Arulumaya(Christmas)",
-			"id": 3040104000
+			"id": 3040104000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Ayer",
-			"id": 3040084000
+			"id": 3040084000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Azazel",
-			"id": 3040137000
+			"id": 3040137000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Baotorda",
-			"id": 3040124000
+			"id": 3040124000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Beatrix",
-			"id": 3040070000
+			"id": 3040070000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Beatrix(Summer)",
-			"id": 3040110000
+			"id": 3040110000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Black Knight",
-			"id": 3040082000
+			"id": 3040082000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","other"]
 		},
 		
 		{
 			"name": "Cagliostro",
-			"id": 3040009000
+			"id": 3040009000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","other"]
 		},
 		
 		{
 			"name": "Cagliostro(April Fools)",
-			"id": 3710067000
+			"id": 3710067000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying",null,null,null,null,"formation",null,null,null,"hp_down","power_down"]
 		},
 		
 		{
 			"name": "Cagliostro(Dark)",
-			"id": 3040120000
+			"id": 3040120000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Cagliostro(Halloween)",
-			"id": 3040062000
+			"id": 3040062000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Cain",
-			"id": 3040171000
+			"id": 3040171000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,null,"hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Carmelina",
-			"id": 3040042000
+			"id": 3040042000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Catherine",
-			"id": 3040074000
+			"id": 3040074000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Cerberus",
-			"id": 3040016000
+			"id": 3040016000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Charioce XVII",
-			"id": 3040144000
+			"id": 3040144000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,null,"hp_down","power_down",,"other"]
 		},
 		
 		{
 			"name": "Charlotta",
-			"id": 3040010000
+			"id": 3040010000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","other"]
 		},
 		
 		{
 			"name": "Charlotta(Halloween)",
-			"id": 3040020000
+			"id": 3040020000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Charlotta(Light)",
-			"id": 3040194000
+			"id": 3040194000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up",null,"introduce","evolution","formation","archive","to_player","healed","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Chat Noir",
-			"id": 3040093000
+			"id": 3040093000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Christina",
-			"id": 3040018000
+			"id": 3040018000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Clarisse",
-			"id": 3040046000
+			"id": 3040046000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Clarisse(Holiday)",
-			"id": 3040067000
+			"id": 3040067000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Clarisse(Light)",
-			"id": 3040121000
+			"id": 3040121000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Conan Edogawa",
-			"id": 3040157000
+			"id": 3040157000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Cucouroux",
-			"id": 3040159000
+			"id": 3040159000,
+			sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,null,"hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Cure Black and Cure White",
-			"id": 3040188000
+			"id": 3040188000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill",null,null,null,null,"zenith_up",null,null,null,"formation",null,"to_player","healed","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Danua(Halloween)",
 			"id": 3040135000
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Danua(Summer)",
-			"id": 3040055000
+			"id": 3040055000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "De La Fille",
-			"id": 3040004000
+			"id": 3040004000,
+			"sounds":[null,null,"ability_them","ability_us","mypage",null,"win","other"]
 		},
 		
 		{
 			"name": "De La Fille(Earth)",
-			"id": 3040113000
+			"id": 3040113000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "De La Fille(Summer)",
-			"id": 3040014000
+			"id": 3040014000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Diantha",
-			"id": 3040129000
+			"id": 3040129000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Dorothy and Claudia",
-			"id": 3040134000
+			"id": 3040134000,
+			"sounds":[null,null,"ability_them","ability_us",null,"cutin",null,"lose","other"]
 		},
 		
 		{
 			"name": "Drang",
-			"id": 3040119000
+			"id": 3040119000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Eahta",
-			"id": 3040037000
+			"id": 3040037000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Eahta 5*",
-			"id": "3040037000_03"
+			"id": "3040037000_03",
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose"]
 		},
 		
 		{
 			"name": "Eugen",
-			"id": 3040077000
+			"id": 3040077000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Europa",
-			"id": 3040190000
+			"id": 3040190000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up",null,"introduce","evolution","formation","archive","to_player","healed","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Eustace",
-			"id": 3040069000
+			"id": 3040069000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Eustace(Halloween)",
-			"id": 3040099000
+			"id": 3040099000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Feena",
-			"id": 3040061000
+			"id": 3040061000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Feower",
-			"id": 3040033000
+			"id": 3040033000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Feower 5*",
-			"id": "3040033000_03"
+			"id": "3040033000_03",
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose"]
 		},
 		
 		{
 			"name": "Ferry",
-			"id": 3040073000
+			"id": 3040073000,
+			"sounds":["them","us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Fif",
-			"id": 3040034000
+			"id": 3040034000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Fif 5*",
-			"id": "3040034000_03"
+			"id": "3040034000_03",
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose"]
 		},
 		
 		{
 			"name": "Forte",
-			"id": 3040086000
+			"id": 3040086000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Freezie",
-			"id": 3040182000
+			"id": 3040182000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up",null,"introduce","evolution","formation","archive","to_player","healed","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Gawain",
-			"id": 3040000000
+			"id": 3040000000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Ghandagoza",
-			"id": 3040052000
+			"id": 3040052000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Ghandagoza 5*",
-			"id": "3040052000_03"
+			"id": "3040052000_03",
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying",null,null,null,"evolution","formation",null,"to_player","healed","hp_down","power_down"]
 		},
 		
 		{
 			"name": "Grea",
-			"id": 3040130000
+			"id": 3040130000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Grea(Summer)",
-			"id": 3040179000
+			"id": 3040179000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up",null,"introduce","evolution","formation","archive","to_player","healed","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Hallessena",
-			"id": 3040079000
+			"id": 3040079000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Heles",
-			"id": 3040060000
+			"id": 3040060000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Heles(Summer)",
-			"id": 3040091000
+			"id": 3040091000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Ilsa",
-			"id": 3040148000
+			"id": 3040148000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,"helaled","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Ilsa(Summer)",
-			"id": 3040177000
+			"id": 3040177000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up",null,"introduce","evolution","formation","archive","to_player","healed","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Io",
-			"id": 3040065000
+			"id": 3040065000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Io(Summer)",
-			"id": 3040015000
+			"id": 3040015000,
+			"sounds":[null,null,"ability_them","ability_us","mypage",null,"win","lose","other"]
 		},
 		
 		{
 			"name": "Izmir",
-			"id": 3040100000
+			"id": 3040100000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Izmir(Summer)",
-			"id": 3040126000
+			"id": 3040126000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Jeanne d'Arc",
-			"id": 3040040000
+			"id": 3040040000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Jeanne d'Arc 5*",
-			"id": "3040040000_03"
+			"id": "3040040000_03",
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Jeanne d'Arc(Dark)",
-			"id": 3040080000
+			"id": 3040080000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Jeanne d'Arc(Summer)",
-			"id": 3040154000
+			"id": 3040154000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,"helaled","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Joker",
-			"id": 3040173000
+			"id": 3040173000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,"helaled","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Juliet",
-			"id": 3040096000
+			"id": 3040096000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Katalina",
-			"id": 3040054000
+			"id": 3040054000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Katalina(Dark)",
-			"id": 3040118000
+			"id": 3040118000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Korwa",
-			"id": 3040081000
+			"id": 3040081000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Korwa (Summer)",
-			"id": 3040127000
+			"id": 3040127000,
+			sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Lady Grey",
-			"id": 3040005000
+			"id": 3040005000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Lady Grey(Halloween)",
-			"id": 3040189000
+			"id": 3040189000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up",null,"introduce","evolution","formation","archive","to_player","healed","hp_down","power_down"]
 		},
 		
 		{
 			"name": "Lady Katapillar and Vira",
-			"id": 3040116000
+			"id": 3040116000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Lancelot",
-			"id": 3040023000
+			"id": 3040023000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Lancelot (Wind)",
-			"id": 3040140000
+			"id": 3040140000,
+			sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,null,"hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Lancelot and Vane",
-			"id": 3040191000
+			"id": 3040191000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill",null,"mortal",null,"dying","zenith_up",null,"introduce",null,"formation",null,"to_player","healed","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Lecia",
-			"id": 3040101000
+			"id": 3040101000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying",null,null,"introduce","evolution","formation","other"]
 		},
 		
 		{
 			"name": "Lennah",
-			"id": "3040021000_03"
+			"id": "3040021000_03",
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying",null,null,null,null,"formation",null,null,null,"hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Levi",
-			"id": 3040142000
+			"id": 3040142000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,null,"hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Levin Sisters",
-			"id": 3040193000
+			"id": 3040193000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill",null,"mortal","damage","dying","zenith_up",null,"introduce",null,"formation",null,"to_player","healed","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Lilele",
-			"id": 3040066000
+			"id": 3040066000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Lily",
-			"id": 3040007000
+			"id": 3040007000,
+			"sounds":[null,null,"ability_them","ability_us","mypage",null,"win","other"]
 		},
 		
 		{
 			"name": "Lucio",
-			"id": 3040106000
+			"id": 3040106000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Lunalu",
-			"id": 3040172000
+			"id": 3040172000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,null,"hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Magisa",
-			"id": 3040011000
+			"id": 3040011000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Mahira",
-			"id": 3040107000
+			"id": 3040107000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Marquiares",
-			"id": 3040108000
+			"id": 3040108000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Mary(Holiday)",
-			"id": 3040143000
+			"id": 3040143000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,null,"hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Medusa",
-			"id": 3040123000
+			"id": 3040123000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Medusa(Valentine)",
-			"id": 3040151000
+			"id": 3040151000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,null,"hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Melissabelle",
-			"id": 3040102000
+			"id": 3040102000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Melleau",
-			"id": 3040022000
+			"id": 3040022000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Metera",
-			"id": 3040012000
+			"id": 3040012000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","other"]
 		},
 		
 		{
 			"name": "Metera 5*",
-			"id": "3040012000_03"
+			"id": "3040012000_03",
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying",null,null,null,"evolution","formation",null,"to_player","healed","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Metera(Fire)",
-			"id": 3040072000
+			"id": 3040072000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Mikazuki Munechika",
-			"id": 3040131000
+			"id": 3040131000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Monika",
-			"id": 3040186000
+			"id": 3040186000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up",null,"introduce","evolution","formation","archive","to_player","healed","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Naoise(Summer)",
-			"id": 3040178000
+			"id": 3040178000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up",null,"introduce","evolution","formation","archive","to_player","healed","hp_down","power_down","other"]
 		},
 		
 		{
 			"name": "Narmaya",
-			"id": 3040063000
+			"id": 3040063000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Narmaya 5*",
-			"id": "3040063000_03"
+			"id": "3040063000_03",
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up",null,"evolution","formation",null,null,null,"hp_down","power_down"]
 		},
 		
 		{
 			"name": "Narmaya(Summer)",
-			"id": 3040089000
+			"id": 3040089000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
 			"name": "Nemone",
-			"id": 3040085000
+			"id": 3040085000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","other"]
 		},
 		
 		{
 			"name": "Nezahualpilli",
-			"id": 3040003000
+			"id": 3040003000,
+			"sounds":[null,null,"ability_them","ability_us","mypage",null,"win","other"]
 		},
 		
 		{
