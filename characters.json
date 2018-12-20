@@ -559,6 +559,11 @@
 		},
 		
 		{
+			"name": "Kokkoro",
+			"id": 3040201000
+		},
+		
+		{
 			"name": "Korwa",
 			"id": 3040081000,
 			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
@@ -721,6 +726,11 @@
 		},
 		
 		{
+			"name": "Metera(Holiday)",
+			"id": 3040072000
+		},
+		
+		{
 			"name": "Mikazuki Munechika",
 			"id": 3040131000,
 			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
@@ -811,6 +821,11 @@
 		{
 			"name": "Percival(Summer)",
 			"id": 3040090000
+		},
+		
+		{
+			"name": "Pecorine",
+			"id": 3040200000
 		},
 		
 		{
