@@ -225,7 +225,7 @@
 		{
 			"name": "Charioce XVII",
 			"id": 3040144000,
-			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,null,"hp_down","power_down",,"other"]
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,null,"hp_down","power_down","other"]
 		},
 		
 		{
@@ -285,7 +285,7 @@
 		{
 			"name": "Cucouroux",
 			"id": 3040159000,
-			sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,null,"hp_down","power_down","other"]
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,null,"hp_down","power_down","other"]
 		},
 		
 		{
@@ -296,7 +296,7 @@
 		
 		{
 			"name": "Danua(Halloween)",
-			"id": 3040135000
+			"id": 3040135000,
 			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
@@ -572,7 +572,7 @@
 		{
 			"name": "Korwa (Summer)",
 			"id": 3040127000,
-			sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","other"]
 		},
 		
 		{
@@ -602,7 +602,7 @@
 		{
 			"name": "Lancelot (Wind)",
 			"id": 3040140000,
-			sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,null,"hp_down","power_down","other"]
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up","runk_up","introduce","evolution","formation",null,null,null,"hp_down","power_down","other"]
 		},
 		
 		{
