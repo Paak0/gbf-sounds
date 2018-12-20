@@ -560,7 +560,8 @@
 		
 		{
 			"name": "Kokkoro",
-			"id": 3040201000
+			"id": 3040201000,
+			"sounds":[null,null,"ability_them","ability_us","mypage","cutin","win","lose","attack","kill","ready","mortal","damage","dying","zenith_up",null,null,"evolution","formation","archive","to_player","healed","hp_down","power_down"]
 		},
 		
 		{
@@ -727,7 +728,7 @@
 		
 		{
 			"name": "Metera(Holiday)",
-			"id": 3040072000
+			"id": 3040195000
 		},
 		
 		{
