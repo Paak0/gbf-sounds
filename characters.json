@@ -1095,7 +1095,7 @@
 		{
 			"name": "Tiamat",
 			"id": 3040152000,
-			"sounds": ["other", "#thisFine"]
+			"sounds": ["other", "thisFine"]
 		},
 		
 		{
@@ -1197,7 +1197,7 @@
 		{
 			"name": "Yggdrasil",
 			"id": 3040125000,
-			"sounds": ["other", "#thisFine"]
+			"sounds": ["other", "thisFine"]
 		},
 		
 		{
