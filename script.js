@@ -6,7 +6,7 @@ class Character{
 }
 
 let showAll = false;
-let chara;
+let chara = new Character();
 
 let soundNames = [
 	'them', 'us', 'ability_them', 'ability_us', 'mypage', 'cutin', 'win', 
@@ -16,36 +16,6 @@ let soundNames = [
 	'power_down', 'player_gauge'
 ];
 let adds = ['', 'a', 'b', '_a', '_b', '_mix'];
-
-// id_them# 		 |x| ferry only
-// id_us# 			 |x| ferry only
-// id_ability_them#  |x| everyone		#_a #_b	(metera fire)	#a #b (sarasa)
-// id_ability_us# 	 |x| everyone
-// id_mypage#		 |x| everyone #a #b
-// id_cutin#		 |x| ? -gandalf -altair -dlf -io(summer) -lily -birdman -sarunan
-// id_win#			 |x| everyone		#a #b (therese)	#_mix (agielba)
-// id_lose#		 	 |x| ? -gandalf -blackknight -cagloli -box -dlf	aliza _a _b dokkan(light) _a _b drang _a _b korwa a lance(wind) _a _b
-// id_turn_start#	 |x| lennah(ONLY)
-// id_turnend		 |x| metera sarunan(ONLY)
-// id_attack#		 |x| ##(monika)
-// id_kill##		 |x| (cucuru)
-// id_ready#		 |x| ##
-// id_mortal#		 |x| id_mortal#_b (lennah)
-// id_damage#		 |x| ##
-// id_dying#		 |x| ##
-// id_zenith_up#	 |x| 
-// id_runk_up#		 |x| ? alex
-// id_introduce#	 |x| 
-// id_evolution##	 |x| #	||	#_mix (Pretty Cure)
-// id_formation#	 |x| ##
-// id_archive##	 	 |x| monika	#grea(summer)
-// id_to_player#	 |x| 
-// id_healed##		 |x| #
-// id_power_down##	 |x| #
-// id_hp_down##	 	 |x| #
-// id_v_###		 	 |x| ###a ###b	 ###_a ###_b (metera fire)
-// id_player_gauge	 |x| orchid forte veight eustace lilele naru percy saru(d) chatnoir sara feower fif
-
 
 function changeChara(){
 	$("#optional").val("");
@@ -60,11 +30,12 @@ function changeChara(){
 	
 	chara.sounds.forEach( elem => { $("#"+elem+"Box").css("display", "flex"); });
 	let picID = Number.isInteger(chara.id) ? 2 : 3;
-	$("head").append("<style>.container::after{ background: url(\"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/zoom/" + parseInt(chara.id) + "_0" + picID + ".png\") no-repeat 50% 40% scroll; }</style>");
+	$("head").append("<style>.container::after{ background: url(\"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/zoom/" + parseInt(chara.id) + "_0" + picID + ".png\") no-repeat 50% 150px fixed; }</style>");
 	
 }
 
 function prev(id, btnId){
+	if(!chara.id) return;
 	if($('#'+id).val() > 1){
 		$('#'+id).val($('#'+id).val() - 1);
 		getSound(id, btnId);
@@ -72,6 +43,7 @@ function prev(id, btnId){
 }
 
 function next(id, btnId){
+	if(!chara.id) return;
 	//if(!chara.gettingSound){
 		$('#'+id).val(parseInt($('#'+id).val()) + 1);
 		//chara.counter = chara.temp = parseInt($('#'+id).val());
@@ -115,6 +87,7 @@ function getSound(name, btnId){
 }
 
 function playSound(name){
+	$("audio").each( function(){ this.pause(); } );
 	if(!chara[name]) return;
 	if(!isNaN(chara[name].duration)) chara[name].play();
 }
@@ -125,12 +98,11 @@ function loadCharacters(){
 
 function showAllSounds(){
 	showAll = !showAll;
-	//changeChara();
-	$(".flex").each(  function(){ $(this).css("display", "flex"); });
+	$(".flex").each( function(){ if($(this).attr('id') != "thisFineBox") $(this).css("display", "flex"); });
 }
 
 function updateData(){
-	// $.getJSON('https://api.myjson.com/bins/9zvio', function(result){
+	// $.getJSON('https://api.myjson.com/bins/1ci0r4', function(result){
 	$.getJSON('characters.json', function(result){
 		data = result;
 		count = data.characters.length;
