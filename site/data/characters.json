@@ -1,5 +1,5 @@
 {
-	"characters": [
+	"ssr": [
 		{
 			"name": "Agielba",
 			"id": 3040017000,
@@ -58,6 +58,12 @@
 			"name": "Andira",
 			"id": 3040071000,
 			"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+		},
+		
+		{
+			"name": "Andira 5*",
+			"id": "3040071000_03",
+			"sounds": ['ability_them', 'ability_us', 'mypage', 'cutin', 'win', 'lose', 'attack', 'kill', 'ready', 'mortal', 'damage', 'dying', 'evolution', 'formation', 'to_player', 'healed', 'hp_down', 'power_down', 'other']
 		},
 		
 		{
@@ -801,7 +807,7 @@
 		{
 			"name": "Nicholas",
 			"id": 3040156000,
-			"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down"]
+			"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
 		},
 		
 		{
@@ -1075,6 +1081,12 @@
 		},
 		
 		{
+			"name": "Tanya",
+			"id": 3040203000,
+			"sounds": ['ability_them', 'ability_us', 'mypage', 'cutin', 'win', 'lose', 'attack', 'kill', 'ready', 'mortal', 'damage', 'dying', 'zenith_up', 'introduce', 'evolution', 'formation', 'archive', 'to_player', 'healed', 'hp_down', 'power_down', 'other']
+		},
+		
+		{
 			"name": "Therese",
 			"id": 3040149000,
 			"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
@@ -1283,5 +1295,13 @@
 			"id": 3040078000,
 			"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
 		}
+	],
+	
+	"sr": [
+		
+	],
+	
+	"r": [
+		
 	]
 }
