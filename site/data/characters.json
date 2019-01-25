@@ -63,7 +63,7 @@
 		{
 			"name": "Andira 5*",
 			"id": "3040071000_03",
-			"sounds": ['ability_them', 'ability_us', 'mypage', 'cutin', 'win', 'lose', 'attack', 'kill', 'ready', 'mortal', 'damage', 'dying', 'evolution', 'formation', 'to_player', 'healed', 'hp_down', 'power_down', 'other']
+			"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "evolution", "formation", "to_player", "healed", "hp_down", "power_down", "other"]
 		},
 		
 		{
@@ -1083,7 +1083,7 @@
 		{
 			"name": "Tanya",
 			"id": 3040203000,
-			"sounds": ['ability_them', 'ability_us', 'mypage', 'cutin', 'win', 'lose', 'attack', 'kill', 'ready', 'mortal', 'damage', 'dying', 'zenith_up', 'introduce', 'evolution', 'formation', 'archive', 'to_player', 'healed', 'hp_down', 'power_down', 'other']
+			"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
 		},
 		
 		{
