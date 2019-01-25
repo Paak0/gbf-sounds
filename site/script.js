@@ -63,7 +63,7 @@ function getSound(name, btnId){
 		chara[name].play();
 	};
 	sound.onerror = function(){
-		if((chara.id == '3040001000_03' || chara.id == '3040012000_03' || chara.id == 3040101000 || chara.id == 3040178000 || parseInt(chara.id) >= 3040180000) && $('#'+name).val().length == 1 ){
+		if( $('#'+name).val().length == 1 ){
 			$('#'+name).val( ('00' + $('#'+name).val()).slice(-2) );
 			getSound(name, btnId);
 		}
