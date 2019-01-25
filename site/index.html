@@ -9,11 +9,12 @@
 	<script>
 		let data;
 		let count = 0;
+		let currentData = 'ssr';
 		
 		if(localStorage.gbfCharacters){
 			data = JSON.parse(localStorage.getItem("gbfCharacters"));
-			count = data.characters.length;
-			if(count < 214) updateData();
+			count = data.ssr.length + data.sr.length + data.r.length;
+			if(count < 216) updateData();
 		}else{
 			updateData();
 		}
@@ -195,11 +196,13 @@
 					</div>
 					<div class="selectBox">
 						<select id="optional" class="select" name="Character" onchange="">
-							<option value="">optional</option>
+							<option value="">default</option>
 							<option value="a">a</option>
 							<option value="b">b</option>
+							<option value="c">c</option>
 							<option value="_a">_a</option>
 							<option value="_b">_b</option>
+							<option value="_c">_c</option>
 							<option value="_mix">_mix</option>
 						</select>
 						<div class="checkbox">
@@ -218,7 +221,7 @@
 								<div class="info"><p>info</p></div>
 							</div>
 							<div class="box">
-								<input type="text" id="them" value="0" maxlength="2" onchange="getSound('them', 1)">
+								<input type="text" id="them" value="0" onchange="getSound('them', 1)">
 								<button id="button1" onclick="playSound('them')"></button>
 								<button onclick="prev('them', 1)">-</button>
 								<button onclick="next('them', 1)">+</button>
@@ -232,7 +235,7 @@
 								<div class="info"><p>info</p></div>
 							</div>
 							<div class="box">
-								<input type="text" id="us" value="0" maxlength="2" onchange="getSound('us', 2)">
+								<input type="text" id="us" value="0" onchange="getSound('us', 2)">
 								<button id="button2" onclick="playSound('us')"></button>
 								<button onclick="prev('us', 2)">-</button>
 								<button onclick="next('us', 2)">+</button>
@@ -246,7 +249,7 @@
 								<div class="info"><p>info jdabddjk a</p></div>
 							</div>
 							<div class="box">
-								<input type="text" id="ability_them" value="0" maxlength="2" onchange="getSound('ability_them', 3)">
+								<input type="text" id="ability_them" value="0" onchange="getSound('ability_them', 3)">
 								<button id="button3" onclick="playSound('ability_them')"></button>
 								<button onclick="prev('ability_them', 3)">-</button>
 								<button onclick="next('ability_them', 3)">+</button>
@@ -260,7 +263,7 @@
 								<div class="info"><p>info</p></div>
 							</div>
 							<div class="box">
-								<input type="text" id="ability_us" value="0" maxlength="2" onchange="getSound('ability_us', 4)">
+								<input type="text" id="ability_us" value="0" onchange="getSound('ability_us', 4)">
 								<button id="button4" onclick="playSound('ability_us')"></button>
 								<button onclick="prev('ability_us', 4)">-</button>
 								<button onclick="next('ability_us', 4)">+</button>
@@ -270,8 +273,8 @@
 					
 						<div id="mypageBox" class="flex">
 							<div class="box">
-								<p>Home page</p>
-								<div class="info"><p>Home screen thoughts</p></div>
+								<p>Home</p>
+								<div class="info"><p>Home screen thoughts<br>(usually 3)</p></div>
 							</div>
 							<div class="box">
 								<input type="text" id="mypage" value="0" onchange="getSound('mypage', 5)">
@@ -285,7 +288,7 @@
 						<div id="cutinBox" id="cutinBox" class="flex">
 							<div class="box">
 								<p>Cutin</p>
-								<div class="info"><p>Join battle (backrow, revive)<br>Turn start<br>Turn end</p></div>
+								<div class="info"><p>Join battle (backrow, revive)<br>Turn start<br>Turn end<br>sometimes skills</p></div>
 							</div>
 							<div class="box">
 								<input type="text" id="cutin" value="0" onchange="getSound('cutin', 6)">
@@ -302,7 +305,7 @@
 								<div class="info"><p>Cleared quest/raid</p></div>
 							</div>
 							<div class="box">
-								<input type="text" id="win" value="0" maxlength="2" onchange="getSound('win', 7)">
+								<input type="text" id="win" value="0" onchange="getSound('win', 7)">
 								<button id="button7" onclick="playSound('win')"></button>
 								<button onclick="prev('win', 7)">-</button>
 								<button onclick="next('win', 7)">+</button>
@@ -312,11 +315,11 @@
 
 						<div id="loseBox" class="flex">
 							<div class="box">
-								<p>Knock out</p>
-								<div class="info"><p>"Death" of character<br>(0 HP)</p></div>
+								<p>Dead</p>
+								<div class="info"><p>Character is knocked out<br>(0 HP) RIP</p></div>
 							</div>
 							<div class="box">
-								<input type="text" id="lose" value="0" maxlength="2" onchange="getSound('lose', 8)">
+								<input type="text" id="lose" value="0" onchange="getSound('lose', 8)">
 								<button id="button8" onclick="playSound('lose')"></button>
 								<button onclick="prev('lose', 8)">-</button>
 								<button onclick="next('lose', 8)">+</button>
@@ -325,10 +328,7 @@
 						</div>
 					
 						<div id="turn_startBox" class="flex">
-							<div class="box">
-								<p>Turn start</p>
-								<div class="info"><p>Turn start</p></div>
-							</div>
+							<div class="box"><p>Turn start</p></div>
 							<div class="box">
 								<input type="text" id="turn_start" value="0" onchange="getSound('turn_start', 9)">
 								<button id="button9" onclick="playSound('turn_start')"></button>
@@ -339,10 +339,7 @@
 						</div>
 						
 						<div id="turnendBox" class="flex">
-							<div class="box">
-								<p>Turn end</p>
-								<div class="info"><p>Turn end</p></div>
-							</div>
+							<div class="box"><p>Turn end</p></div>
 							<div class="box">
 								<input type="text" id="turnend" value="0" onchange="getSound('turnend', 10)">
 								<button id="button10" onclick="playSound('turnend')"></button>
@@ -355,10 +352,10 @@
 						<div id="attackBox" class="flex">
 							<div class="box">
 								<p>Attack</p>
-								<div class="info"><p>Normal attacks</p></div>
+								<div class="info"><p>Normal attacks<br>(autos)</p></div>
 							</div>
 							<div class="box">
-								<input type="text" id="attack" value="0" maxlength="2" onchange="getSound('attack', 11)">
+								<input type="text" id="attack" value="0" onchange="getSound('attack', 11)">
 								<button id="button11" onclick="playSound('attack')"></button>
 								<button onclick="prev('attack', 11)">-</button>
 								<button onclick="next('attack', 11)">+</button>
@@ -383,10 +380,10 @@
 						<div id="readyBox" class="flex">
 							<div class="box">
 								<p>Ready</p>
-								<div class="info"><p>Ready to use Charge Attack<br>(100% Bar)</p></div>
+								<div class="info"><p>Ready to use Charge Attack<br>(100% Charge Bar)</p></div>
 							</div>
 							<div class="box">
-								<input type="text" id="ready" value="0" maxlength="2" onchange="getSound('ready', 13)">
+								<input type="text" id="ready" value="0" onchange="getSound('ready', 13)">
 								<button id="button13" onclick="playSound('ready')"></button>
 								<button onclick="prev('ready', 13)">-</button>
 								<button onclick="next('ready', 13)">+</button>
@@ -397,7 +394,7 @@
 						<div id="mortalBox" class="flex">
 							<div class="box">
 								<p>Charge</p>
-								<div class="info"><p>Charge Attack<br>(normal and skip)</p></div>
+								<div class="info"><p>Charge Attack<br>(full and skip)</p></div>
 							</div>
 							<div class="box">
 								<input type="text" id="mortal" value="0" onchange="getSound('mortal', 14)">
@@ -411,7 +408,7 @@
 						<div id="damageBox" class="flex">
 							<div class="box">
 								<p>Damaged</p>
-								<div class="info"><p>Lose HP after getting hit by enemy</p></div>
+								<div class="info"><p>Lose HP after getting hit</p></div>
 							</div>
 							<div class="box">
 								<input type="text" id="damage" value="0" onchange="getSound('damage', 15)">
@@ -428,7 +425,7 @@
 								<div class="info"><p>HP drop below 30%<br>(red color)</p></div>
 							</div>
 							<div class="box">
-								<input type="text" id="dying" value="0" maxlength="2" onchange="getSound('dying', 16)">
+								<input type="text" id="dying" value="0" onchange="getSound('dying', 16)">
 								<button id="button16" onclick="playSound('dying')"></button>
 								<button onclick="prev('dying', 16)">-</button>
 								<button onclick="next('dying', 16)">+</button>
@@ -438,8 +435,8 @@
 							
 						<div id="zenith_upBox" class="flex">
 							<div class="box">
-								<p>EMP up</p>
-								<div class="info"><p>info</p></div>
+								<p>EMP</p>
+								<div class="info"><p>Added Mastery point</p></div>
 							</div>
 							<div class="box">
 								<input type="text" id="zenith_up" value="0" onchange="getSound('zenith_up', 17)">
@@ -452,8 +449,8 @@
 						
 						<div id="runk_upBox" class="flex">
 							<div class="box">
-								<p>EMP lvl up</p>
-								<div class="info"><p>info</p></div>
+								<p>EM lvl</p>
+								<div class="info"><p>Increased Mastery level</p></div>
 							</div>
 							<div class="box">
 								<input type="text" id="runk_up" value="0" onchange="getSound('runk_up', 18)">
@@ -467,7 +464,7 @@
 						<div id="introduceBox" class="flex">
 							<div class="box">
 								<p>Recruit</p>
-								<div class="info"><p>info</p></div>
+								<div class="info"><p>Character introduction<br>(rolled in gacha)</p></div>
 							</div>
 							<div class="box">
 								<input type="text" id="introduce" value="0" onchange="getSound('introduce', 19)">
@@ -481,7 +478,7 @@
 						<div id="evolutionBox" class="flex">
 							<div class="box">
 								<p>Uncap</p>
-								<div class="info"><p>info</p></div>
+								<div class="info"><p>Raised level cap<br>(stars)</p></div>
 							</div>
 							<div class="box">
 								<input type="text" id="evolution" value="0" onchange="getSound('evolution', 20)">
@@ -494,8 +491,8 @@
 						
 						<div id="formationBox" class="flex">
 							<div class="box">
-								<p>Add to party</p>
-								<div class="info"><p>info</p></div>
+								<p>Party</p>
+								<div class="info"><p>Added to party</p></div>
 							</div>
 							<div class="box">
 								<input type="text" id="formation" value="0" onchange="getSound('formation', 21)">
@@ -509,7 +506,7 @@
 						<div id='archiveBox' class="flex">
 							<div class="box">
 								<p>Journal</p>
-								<div class="info"><p>info</p></div>
+								<div class="info"><p>Journal lines<br>(field notes > people)</p></div>
 							</div>
 							<div class="box">
 								<input type="text" id="archive" value="0" onchange="getSound('archive', 22)">
@@ -522,8 +519,8 @@
 						
 						<div id="to_playerBox" class="flex">
 							<div class="box">
-								<p>To player</p>
-								<div class="info"><p>info</p></div>
+								<p>Danchou</p>
+								<div class="info"><p>When MC:<br>- defeated enemy<br>- has ready Charge attack<br>- has low hp<br>- is knocked out</p></div>
 							</div>
 							<div class="box">
 								<input type="text" id="to_player" value="0" onchange="getSound('to_player', 23)">
@@ -535,10 +532,7 @@
 						</div>
 						
 						<div id="healedBox" class="flex">
-							<div class="box">
-								<p>Healed</p>
-								<div class="info"><p>info</p></div>
-							</div>
+							<div class="box"><p>Healed</p></div>
 							<div class="box">
 								<input type="text" id="healed" value="0" onchange="getSound('healed', 24)">
 								<button id="button24" onclick="playSound('healed')"></button>
@@ -549,10 +543,7 @@
 						</div>
 						
 						<div id="helaledBox" class="flex">
-							<div class="box">
-								<p>Healed</p>
-								<div class="info"><p>info</p></div>
-							</div>
+							<div class="box"><p>Healed</p></div>
 							<div class="box">
 								<input type="text" id="helaled" value="0" onchange="getSound('helaled', 25)">
 								<button id="button25" onclick="playSound('helaled')"></button>
@@ -565,7 +556,7 @@
 						<div id="power_downBox" class="flex">
 							<div class="box">
 								<p>Debuffed</p>
-								<div class="info"><p>info</p></div>
+								<div class="info"><p>Debuffs causing character to not act properly<br>(sleep, confuse, seal)</p></div>
 							</div>
 							<div class="box">
 								<input type="text" id="power_down" value="0" onchange="getSound('power_down', 26)">
@@ -579,7 +570,7 @@
 						<div id="hp_downBox" class="flex">
 							<div class="box">
 								<p>Debuffed2</p>
-								<div class="info"><p>info</p></div>
+								<div class="info"><p>Turn damaging debuffs<br>(burn, poison)</p></div>
 							</div>
 							<div class="box">
 								<input type="text" id="hp_down" value="0" onchange="getSound('hp_down', 27)">
@@ -592,8 +583,8 @@
 					
 						<div id="player_gaugeBox" class="flex">
 							<div class="box">
-								<p>Player gauge</p>
-								<div class="info"><p>info</p></div>
+								<p>MC ready</p>
+								<div class="info"><p>MC filled Charge bar<br>(100%)</p></div>
 							</div>
 							<div class="box">
 								<input type="text" id="player_gauge" value="0" onchange="getSound('player_gauge', 28)">
@@ -610,7 +601,7 @@
 								<div class="info"><p>info</p></div>
 							</div>
 							<div class="box">
-								<input type="text" id="v_" value="0" maxlength="3" onchange="getSound('v_', 29)">
+								<input type="text" id="v_" value="0" onchange="getSound('v_', 29)">
 								<button id="button29" onclick="playSound('v_')"></button>
 								<button onclick="prev('v_', 29)">-</button>
 								<button onclick="next('v_', 29)">+</button>
@@ -635,7 +626,7 @@
 </body>
 
 <script>
-	window.onload = () => data ? loadCharacters() : "";
+	window.onload = loadCharacters(currentData);
 </script>
 
 
