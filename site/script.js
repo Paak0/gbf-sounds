@@ -25,7 +25,7 @@ function changeChara(){
 	$(".link").each( function(){ $(this).attr("onclick", "" ); });
 	
 	chara = new Character();
-	chara.id = data[currentData][$("#charaSelect").prop("selectedIndex") - 1].id;
+	chara.id = $("#charaSelect").val();
 	chara.sounds = data[currentData][$("#charaSelect").prop("selectedIndex") - 1].sounds;
 	
 	chara.sounds.forEach( elem => { $("#"+elem+"Box").css("display", "flex"); });
@@ -78,7 +78,7 @@ function playSound(name){
 }
 
 function loadCharacters(x){
-	data[x].forEach( ch => $('#charaSelect').append($('<option>', { value: 1, text: ch.name })) );
+	data[x].forEach( ch => $('#charaSelect').append($('<option>', { value: ch.id, text: ch.name })) );
 }
 
 function showAllSounds(){
