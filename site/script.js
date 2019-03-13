@@ -32,8 +32,8 @@ function changeChara(){
 	chara.sounds = data[currentData][val][$("#charaSelect").val()].sounds;
 	
 	chara.sounds.forEach( elem => { $("#"+elem+"Box").css("display", "flex"); });
-	//let picID = Number.isInteger(chara.id) ? 2 : 3;
-	//if (picID) $("head").append("<style>.container::after{ background: url(\"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/zoom/" + parseInt(chara.id) + "_0" + picID + ".png\") no-repeat 50% 150px fixed; }</style>");
+	let picID = chara.id.length < 12 ? 2 : 3;
+	$("head").append("<style>.container::after{ background: url(\"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/zoom/" + parseInt(chara.id) + "_0" + picID + ".png\") no-repeat 50% 150px fixed; }</style>");
 }
 
 function prev(id, btnId){
