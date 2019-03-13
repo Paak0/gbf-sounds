@@ -13,8 +13,8 @@
 		
 		if(localStorage.gbfCharacters){
 			data = JSON.parse(localStorage.getItem("gbfCharacters"));
-			count = data.ssr.length + data.sr.length + data.r.length;
-			if(count < 216) updateData();
+			//count = data.ssr.length + data.sr.length + data.r.length;
+			//if(count < 216) updateData();
 		}else{
 			updateData();
 		}
@@ -594,6 +594,20 @@
 								<button id="link28" class="link"><p2>link</p2></button>
 							</div>
 						</div>
+						
+						<div id="specialBox" class="flex">
+							<div class="box">
+								<p>Special</p>
+								<div class="info"><p>Special</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="special" value="0" onchange="getSound('special', 29)">
+								<button id="button29" onclick="playSound('special')"></button>
+								<button onclick="prev('special', 29)">-</button>
+								<button onclick="next('special', 29)">+</button>
+								<button id="link29" class="link"><p2>link</p2></button>
+							</div>
+						</div>
 					
 						<div id="otherBox" class="flex">
 							<div class="box">
@@ -601,11 +615,11 @@
 								<div class="info"><p>Literally everything else</p></div>
 							</div>
 							<div class="box">
-								<input type="text" id="v_" value="0" onchange="getSound('v_', 29)">
-								<button id="button29" onclick="playSound('v_')"></button>
-								<button onclick="prev('v_', 29)">-</button>
-								<button onclick="next('v_', 29)">+</button>
-								<button id="link29" class="link"><p2>link</p2></button>
+								<input type="text" id="v_" value="0" onchange="getSound('v_', 30)">
+								<button id="button30" onclick="playSound('v_')"></button>
+								<button onclick="prev('v_', 30)">-</button>
+								<button onclick="next('v_', 30)">+</button>
+								<button id="link30" class="link"><p2>link</p2></button>
 							</div>
 						</div>
 						

@@ -25,12 +25,15 @@ function changeChara(){
 	$(".link").each( function(){ $(this).attr("onclick", "" ); });
 	
 	chara = new Character();
-	chara.id = $("#charaSelect").val();
-	chara.sounds = data[currentData][$("#charaSelect").prop("selectedIndex") - 1].sounds;
+	let current = $('select option:selected');
+	let val = current.closest('optgroup').attr('label');
+	
+	chara.id = data[currentData][val][$("#charaSelect").val()].id;
+	chara.sounds = data[currentData][val][$("#charaSelect").val()].sounds;
 	
 	chara.sounds.forEach( elem => { $("#"+elem+"Box").css("display", "flex"); });
-	let picID = Number.isInteger(chara.id) ? 2 : 3;
-	$("head").append("<style>.container::after{ background: url(\"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/zoom/" + parseInt(chara.id) + "_0" + picID + ".png\") no-repeat 50% 150px fixed; }</style>");
+	//let picID = Number.isInteger(chara.id) ? 2 : 3;
+	//if (picID) $("head").append("<style>.container::after{ background: url(\"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/zoom/" + parseInt(chara.id) + "_0" + picID + ".png\") no-repeat 50% 150px fixed; }</style>");
 }
 
 function prev(id, btnId){
@@ -78,7 +81,13 @@ function playSound(name){
 }
 
 function loadCharacters(x){
-	data[x].forEach( ch => $('#charaSelect').append($('<option>', { value: ch.id, text: ch.name })) );
+	for(let key in data[x]){
+		let group = $('<optgroup label="' + key + '"/>');
+		for(let val in data[x][key]){
+			$('<option value="' + val + '"/>').html(data[x][key][val].name).appendTo(group);
+		};
+		group.appendTo($('#charaSelect'));
+	};
 }
 
 function showAllSounds(){
@@ -90,7 +99,7 @@ function updateData(){
 	$("#charaSelect").children('option:not(:first)').remove();
 	$.getJSON('data/characters.json', function(res){
 		data = res;
-		count = data.ssr.length + data.sr.length + data.r.length;
+		//count = data.ssr.length + data.sr.length + data.r.length;
 		localStorage.setItem('gbfCharacters', JSON.stringify(data));
 	});
 }
