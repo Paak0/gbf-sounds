@@ -8,14 +8,13 @@
 	<script src="script.js"></script>
 	<script>
 		let data;
-		let count = 0;
+		let charaCount = 228;
 		let currentData = "ssr";
 		
-		if(localStorage.gbfCharacters){
+		if(localStorage.count && localStorage.count == charaCount){
 			data = JSON.parse(localStorage.getItem("gbfCharacters"));
-			//count = data.ssr.length + data.sr.length + data.r.length;
-			//if(count < 216) updateData();
 		}else{
+			localStorage.setItem('count', JSON.stringify(charaCount));
 			updateData();
 		}
 	</script>

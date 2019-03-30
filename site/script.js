@@ -99,7 +99,6 @@ function updateData(){
 	$("#charaSelect").children('option:not(:first)').remove();
 	$.getJSON('data/characters.json', function(res){
 		data = res;
-		//count = data.ssr.length + data.sr.length + data.r.length;
 		localStorage.setItem('gbfCharacters', JSON.stringify(data));
 	});
 }
