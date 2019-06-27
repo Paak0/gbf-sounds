@@ -1,39 +1,43 @@
-class Character{
-	constructor(){
-		this.id = 0;
-		this.sounds = [];
-	}
-}
+let currentData = "ssr";
+window.onload = loadSelect(currentData);
 
-let showAll = false;
-let chara = new Character();
+let chara;
 
-let soundNames = [
+const soundNames = [
 	'them', 'us', 'ability_them', 'ability_us', 'mypage', 'cutin', 'win', 
 	'lose', 'turn_start', 'turnend', 'attack', 'kill', 'ready', 'mortal', 
 	'damage', 'dying', 'zenith_up', 'runk_up', 'introduce', 'evolution', 
 	'formation', 'archive', 'to_player', 'healed', 'helaled', 'hp_down', 
-	'power_down', 'player_gauge'
+	'power_down', 'player_gauge', '_v'
 ];
-let adds = ['', 'a', 'b', 'c', '_a', '_b', '_c', '_mix'];
+const adds = ['', 'a', 'b', 'c', '_a', '_b', '_c', '_mix'];
 
-function changeChara(){
+async function changeChara(){
 	$("#optional").val("");
-	$("input").each( function(){ $(this).val(0); });
-	$(".flex").each( function(){ $(this).hide(); });
+	$("input") .each(function(){ $(this).val(0); });
+	$(".flex") .each(function(){ $(this).hide(); });
 	$("button").each(function(){ $(this).css("background-color", ""); });
-	$(".link").each( function(){ $(this).attr("onclick", "" ); });
+	$(".link") .each(function(){ $(this).attr("onclick", "" ); });
 	
-	chara = new Character();
-	let current = $('select option:selected');
-	let val = current.closest('optgroup').attr('label');
+	chara = {};
 	
-	chara.id = data[currentData][val][$("#charaSelect").val()].id;
-	chara.sounds = data[currentData][val][$("#charaSelect").val()].sounds;
+	let selectedGroup = $('select option:selected').closest('optgroup').attr('label').toLowerCase();
+	let selectedVal = $("#charaSelect").val();
+	
+	const res = await fetch('/search', {
+		method: 'POST',
+		headers: { 'Content-Type': 'application/json' },
+		body: JSON.stringify({ type: currentData, group: selectedGroup, index: selectedVal })
+	});
+	const data = await res.json();
+	
+	chara.id = data.id;
+	chara.sounds = data.sounds;
 	
 	chara.sounds.forEach( elem => { $("#"+elem+"Box").css("display", "flex"); });
-	let picID = chara.id.length < 12 ? 2 : 3;
-	$("head").append("<style>.container::after{ background: url(\"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/zoom/" + parseInt(chara.id) + "_0" + picID + ".png\") no-repeat 50% 150px fixed; }</style>");
+	
+	let imgIndex = chara.id.length < 12 ? 2 : 3;
+	$("head").append("<style>.container::after{ background: url(\"http://game-a.granbluefantasy.jp/assets_en/img/sp/assets/npc/zoom/" + parseInt(chara.id) + "_0" + imgIndex + ".png\") no-repeat 50% 50px fixed; }</style>");
 }
 
 function prev(id, btnId){
@@ -66,13 +70,12 @@ function getSound(name, btnId){
 		chara[name].play();
 	};
 	sound.onerror = function(){
+		$("#button"+btnId).css("background-color", "#e05252"); //redish
 		if( $('#'+name).val().length == 1 ){
 			$('#'+name).val( ('00' + $('#'+name).val()).slice(-2) );
 			getSound(name, btnId);
 		}
-		$("#button"+btnId).css("background-color", "#e05252"); //redish
 	}
-	
 }
 
 function playSound(name){
@@ -80,25 +83,18 @@ function playSound(name){
 	chara[name].play();
 }
 
-function loadCharacters(x){
-	for(let key in data[x]){
-		let group = $('<optgroup label="' + key + '"/>');
-		for(let val in data[x][key]){
-			$('<option value="' + val + '"/>').html(data[x][key][val].name).appendTo(group);
-		};
-		group.appendTo($('#charaSelect'));
-	};
+async function loadSelect(rarity){
+	$('#charaSelect').children().remove('optgroup');
+	const res = await fetch('load', {
+		method: 'POST',
+		headers: { 'Content-Type': 'application/json' },
+		body: JSON.stringify({type: rarity})
+	});
+	const data = await res.json();
+	const loadChars = new Function("return " + data.fn)();
+	loadChars(data.charas);
 }
 
 function showAllSounds(){
-	showAll = !showAll;
 	$(".flex").each( function(){ if($(this).attr('id') != "thisFineBox") $(this).css("display", "flex"); });
-}
-
-function updateData(){
-	$("#charaSelect").children('option:not(:first)').remove();
-	$.getJSON('data/characters.json', function(res){
-		data = res;
-		localStorage.setItem('gbfCharacters', JSON.stringify(data));
-	});
 }
