@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GBF Sounds</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<div class="mainContainer">
+		<div class="qqq">
+			<div>
+				<div id="start"></div>
+				
+				<div class="margins">
+					<div class="selectBox">
+						<select id="charaSelect" class="select" name="Character" onchange="changeChara()">
+							<option value="Character">Character</option>
+						</select>
+					
+						<select id="optional" class="select" name="Character" onchange="">
+							<option value="">default</option>
+							<option value="a">a</option>
+							<option value="b">b</option>
+							<option value="c">c</option>
+							<option value="_a">_a</option>
+							<option value="_b">_b</option>
+							<option value="_c">_c</option>
+							<option value="_mix">_mix</option>
+						</select>
+						
+						<button style="box-shadow: none !important;" onclick="showAllSounds()"><p2>Show all</p2></button>
+					</div>
+				</div>
+				
+				<div class="container">
+					<div id="allBtns" class="grid">
+					
+						<div id="themBox" class="flex">
+							<div class="box">
+								<p>Skills</p>
+								<div class="info"><p>soonTM</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="them" value="0" onchange="getSound('them', 1)">
+								<button id="button1" onclick="playSound('them')"></button>
+								<button onclick="prev('them', 1)">-</button>
+								<button onclick="next('them', 1)">+</button>
+								<button id="link1" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="usBox" class="flex">
+							<div class="box">
+								<p>Skills2</p>
+								<div class="info"><p>soonTM</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="us" value="0" onchange="getSound('us', 2)">
+								<button id="button2" onclick="playSound('us')"></button>
+								<button onclick="prev('us', 2)">-</button>
+								<button onclick="next('us', 2)">+</button>
+								<button id="link2" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+					
+						<div id="ability_themBox" class="flex">
+							<div class="box">
+								<p>Skills</p>
+								<div class="info"><p>soonTM</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="ability_them" value="0" onchange="getSound('ability_them', 3)">
+								<button id="button3" onclick="playSound('ability_them')"></button>
+								<button onclick="prev('ability_them', 3)">-</button>
+								<button onclick="next('ability_them', 3)">+</button>
+								<button id="link3" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="ability_usBox" class="flex">
+							<div class="box">
+								<p>Skills2</p>
+								<div class="info"><p>soonTM</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="ability_us" value="0" onchange="getSound('ability_us', 4)">
+								<button id="button4" onclick="playSound('ability_us')"></button>
+								<button onclick="prev('ability_us', 4)">-</button>
+								<button onclick="next('ability_us', 4)">+</button>
+								<button id="link4" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+					
+						<div id="mypageBox" class="flex">
+							<div class="box">
+								<p>Home</p>
+								<div class="info"><p>Home screen thoughts<br>(usually 3)</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="mypage" value="0" onchange="getSound('mypage', 5)">
+								<button id="button5" onclick="playSound('mypage')"></button>
+								<button onclick="prev('mypage', 5)">-</button>
+								<button onclick="next('mypage', 5)">+</button>
+								<button id="link5" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="cutinBox" id="cutinBox" class="flex">
+							<div class="box">
+								<p>Cutin</p>
+								<div class="info"><p>Join battle (backrow, revive)<br>Turn start<br>Turn end<br>sometimes skills</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="cutin" value="0" onchange="getSound('cutin', 6)">
+								<button id="button6" onclick="playSound('cutin')"></button>
+								<button onclick="prev('cutin', 6)">-</button>
+								<button onclick="next('cutin', 6)">+</button>
+								<button id="link6" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+					
+						<div id="winBox" class="flex">
+							<div class="box">
+								<p>Win</p>
+								<div class="info"><p>Cleared quest/raid</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="win" value="0" onchange="getSound('win', 7)">
+								<button id="button7" onclick="playSound('win')"></button>
+								<button onclick="prev('win', 7)">-</button>
+								<button onclick="next('win', 7)">+</button>
+								<button id="link7" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+
+						<div id="loseBox" class="flex">
+							<div class="box">
+								<p>Dead</p>
+								<div class="info"><p>Character is knocked out<br>(0 HP) RIP</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="lose" value="0" onchange="getSound('lose', 8)">
+								<button id="button8" onclick="playSound('lose')"></button>
+								<button onclick="prev('lose', 8)">-</button>
+								<button onclick="next('lose', 8)">+</button>
+								<button id="link8" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+					
+						<div id="turn_startBox" class="flex">
+							<div class="box"><p>Turn start</p></div>
+							<div class="box">
+								<input type="text" id="turn_start" value="0" onchange="getSound('turn_start', 9)">
+								<button id="button9" onclick="playSound('turn_start')"></button>
+								<button onclick="prev('turn_start', 9)">-</button>
+								<button onclick="next('turn_start', 9)">+</button>
+								<button id="link9" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="turnendBox" class="flex">
+							<div class="box"><p>Turn end</p></div>
+							<div class="box">
+								<input type="text" id="turnend" value="0" onchange="getSound('turnend', 10)">
+								<button id="button10" onclick="playSound('turnend')"></button>
+								<button onclick="prev('turnend', 10)">-</button>
+								<button onclick="next('turnend', 10)">+</button>
+								<button id="link10" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="attackBox" class="flex">
+							<div class="box">
+								<p>Attack</p>
+								<div class="info"><p>Normal attacks<br>(autos)</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="attack" value="0" onchange="getSound('attack', 11)">
+								<button id="button11" onclick="playSound('attack')"></button>
+								<button onclick="prev('attack', 11)">-</button>
+								<button onclick="next('attack', 11)">+</button>
+								<button id="link11" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="killBox" class="flex">
+							<div class="box">
+								<p>Kill</p>
+								<div class="info"><p>Defeat enemy<br>(multiple enemies or quests)</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="kill" value="0" onchange="getSound('kill', 12)">
+								<button id="button12" onclick="playSound('kill')"></button>
+								<button onclick="prev('kill', 12)">-</button>
+								<button onclick="next('kill', 12)">+</button>
+								<button id="link12" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="readyBox" class="flex">
+							<div class="box">
+								<p>Ready</p>
+								<div class="info"><p>Ready to use Charge Attack<br>(100% Charge Bar)</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="ready" value="0" onchange="getSound('ready', 13)">
+								<button id="button13" onclick="playSound('ready')"></button>
+								<button onclick="prev('ready', 13)">-</button>
+								<button onclick="next('ready', 13)">+</button>
+								<button id="link13" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="mortalBox" class="flex">
+							<div class="box">
+								<p>Charge</p>
+								<div class="info"><p>Charge Attack<br>(full and skip)</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="mortal" value="0" onchange="getSound('mortal', 14)">
+								<button id="button14" onclick="playSound('mortal')"></button>
+								<button onclick="prev('mortal', 14)">-</button>
+								<button onclick="next('mortal', 14)">+</button>
+								<button id="link14" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="damageBox" class="flex">
+							<div class="box">
+								<p>Damaged</p>
+								<div class="info"><p>Lose HP after getting hit</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="damage" value="0" onchange="getSound('damage', 15)">
+								<button id="button15" onclick="playSound('damage')"></button>
+								<button onclick="prev('damage', 15)">-</button>
+								<button onclick="next('damage', 15)">+</button>
+								<button id="link15" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="dyingBox" class="flex">
+							<div class="box">
+								<p>Low hp</p>
+								<div class="info"><p>HP drop below 30%<br>(red color)</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="dying" value="0" onchange="getSound('dying', 16)">
+								<button id="button16" onclick="playSound('dying')"></button>
+								<button onclick="prev('dying', 16)">-</button>
+								<button onclick="next('dying', 16)">+</button>
+								<button id="link16" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+							
+						<div id="zenith_upBox" class="flex">
+							<div class="box">
+								<p>EMP</p>
+								<div class="info"><p>Added Mastery point</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="zenith_up" value="0" onchange="getSound('zenith_up', 17)">
+								<button id="button17" onclick="playSound('zenith_up')"></button>
+								<button onclick="prev('zenith_up', 17)">-</button>
+								<button onclick="next('zenith_up', 17)">+</button>
+								<button id="link17" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="runk_upBox" class="flex">
+							<div class="box">
+								<p>EM lvl</p>
+								<div class="info"><p>Increased Mastery level</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="runk_up" value="0" onchange="getSound('runk_up', 18)">
+								<button id="button18" onclick="playSound('runk_up')"></button>
+								<button onclick="prev('runk_up', 18)">-</button>
+								<button onclick="next('runk_up', 18)">+</button>
+								<button id="link18" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="introduceBox" class="flex">
+							<div class="box">
+								<p>Recruit</p>
+								<div class="info"><p>Character introduction<br>(rolled in gacha)</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="introduce" value="0" onchange="getSound('introduce', 19)">
+								<button id="button19" onclick="playSound('introduce')"></button>
+								<button onclick="prev('introduce', 19)">-</button>
+								<button onclick="next('introduce', 19)">+</button>
+								<button id="link19" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="evolutionBox" class="flex">
+							<div class="box">
+								<p>Uncap</p>
+								<div class="info"><p>Raised level cap<br>(stars)</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="evolution" value="0" onchange="getSound('evolution', 20)">
+								<button id="button20" onclick="playSound('evolution')"></button>
+								<button onclick="prev('evolution', 20)">-</button>
+								<button onclick="next('evolution', 20)">+</button>
+								<button id="link20" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="formationBox" class="flex">
+							<div class="box">
+								<p>Party</p>
+								<div class="info"><p>Added to party</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="formation" value="0" onchange="getSound('formation', 21)">
+								<button id="button21" onclick="playSound('formation')"></button>
+								<button onclick="prev('formation', 21)">-</button>
+								<button onclick="next('formation', 21)">+</button>
+								<button id="link21" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id='archiveBox' class="flex">
+							<div class="box">
+								<p>Journal</p>
+								<div class="info"><p>Journal lines<br>(field notes > people)</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="archive" value="0" onchange="getSound('archive', 22)">
+								<button id="button22" onclick="playSound('archive')"></button>
+								<button onclick="prev('archive', 22)">-</button>
+								<button onclick="next('archive', 22)">+</button>
+								<button id="link22" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="to_playerBox" class="flex">
+							<div class="box">
+								<p>Danchou</p>
+								<div class="info"><p>When MC:<br>- defeated enemy<br>- has ready Charge attack<br>- has low hp<br>- is knocked out</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="to_player" value="0" onchange="getSound('to_player', 23)">
+								<button id="button23" onclick="playSound('to_player')"></button>
+								<button onclick="prev('to_player', 23)">-</button>
+								<button onclick="next('to_player', 23)">+</button>
+								<button id="link23" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="healedBox" class="flex">
+							<div class="box"><p>Healed</p></div>
+							<div class="box">
+								<input type="text" id="healed" value="0" onchange="getSound('healed', 24)">
+								<button id="button24" onclick="playSound('healed')"></button>
+								<button onclick="prev('healed', 24)">-</button>
+								<button onclick="next('healed', 24)">+</button>
+								<button id="link24" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="helaledBox" class="flex">
+							<div class="box"><p>Healed</p></div>
+							<div class="box">
+								<input type="text" id="helaled" value="0" onchange="getSound('helaled', 25)">
+								<button id="button25" onclick="playSound('helaled')"></button>
+								<button onclick="prev('helaled', 25)">-</button>
+								<button onclick="next('helaled', 25)">+</button>
+								<button id="link25" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+							
+						<div id="power_downBox" class="flex">
+							<div class="box">
+								<p>Debuffed</p>
+								<div class="info"><p>Debuffs causing character to not act properly<br>(sleep, confuse, seal)</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="power_down" value="0" onchange="getSound('power_down', 26)">
+								<button id="button26" onclick="playSound('power_down')"></button>
+								<button onclick="prev('power_down', 26)">-</button>
+								<button onclick="next('power_down', 26)">+</button>
+								<button id="link26" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="hp_downBox" class="flex">
+							<div class="box">
+								<p>Debuffed2</p>
+								<div class="info"><p>Turn damaging debuffs<br>(burn, poison)</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="hp_down" value="0" onchange="getSound('hp_down', 27)">
+								<button id="button27" onclick="playSound('hp_down')"></button>
+								<button onclick="prev('hp_down', 27)">-</button>
+								<button onclick="next('hp_down', 27)">+</button>
+								<button id="link27" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+					
+						<div id="player_gaugeBox" class="flex">
+							<div class="box">
+								<p>MC ready</p>
+								<div class="info"><p>MC filled Charge bar<br>(100%)</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="player_gauge" value="0" onchange="getSound('player_gauge', 28)">
+								<button id="button28" onclick="playSound('player_gauge')"></button>
+								<button onclick="prev('player_gauge', 28)">-</button>
+								<button onclick="next('player_gauge', 28)">+</button>
+								<button id="link28" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+						<div id="specialBox" class="flex">
+							<div class="box">
+								<p>Special</p>
+								<div class="info"><p>Special</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="special" value="0" onchange="getSound('special', 29)">
+								<button id="button29" onclick="playSound('special')"></button>
+								<button onclick="prev('special', 29)">-</button>
+								<button onclick="next('special', 29)">+</button>
+								<button id="link29" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+					
+						<div id="otherBox" class="flex">
+							<div class="box">
+								<p>Other</p>
+								<div class="info"><p>Literally everything else</p></div>
+							</div>
+							<div class="box">
+								<input type="text" id="v_" value="0" onchange="getSound('v_', 30)">
+								<button id="button30" onclick="playSound('v_')"></button>
+								<button onclick="prev('v_', 30)">-</button>
+								<button onclick="next('v_', 30)">+</button>
+								<button id="link30" class="link"><p2>link</p2></button>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div id="thisFineBox" class="flex">
+					<img src="" style="display: block; margin: 10px auto 10px auto;">
+				</div>
+			</div>
+			
+			<div id="foot">zz</div>
+		</div>
+	</div>
+</body>
+
+</html>
+
+
+
+
+
