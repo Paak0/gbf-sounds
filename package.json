@@ -2,14 +2,15 @@
   "name": "gbf-sounds",
   "version": "1.0.0",
   "description": "granblue fantasy sounds",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^2.6.2",
     "express": "^4.16.4"
   }
 }
