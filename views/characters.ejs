@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>GBF Sounds</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<% include ./partials/head %>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="script.js"></script>
+	<script src="../script.js"></script>
+	<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
 <body>
 	<div class="mainContainer">
 		<div class="qqq">
 			<div>
-				<div id="start"></div>
+				<div id="start">
+				</div>
 				
 				<div class="margins">
 					<div class="selectBox">
 						<select id="charaSelect" class="select" name="Character" onchange="changeChara()">
 							<option value="Character">Character</option>
+							
+							<% for(let key in data){ %>
+								<optgroup label= <%= key.toUpperCase() %> />
+								<% for(let i = 0; i< data[key].length; i++){ %>
+									<option value = <%= data[key][i].name %> > <%= data[key][i].name %> </option>
+								<% } %>
+							<% } %>
+							
 						</select>
 					
 						<select id="optional" class="select" name="Character" onchange="">
@@ -455,7 +462,7 @@
 				</div>
 			</div>
 			
-			<div id="foot">zz</div>
+			<% include ./partials/footer %>
 		</div>
 	</div>
 </body>
