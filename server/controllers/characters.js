@@ -22,5 +22,5 @@ async function index3(req, res, type, name){
 }
 
 module.exports = {
-	index: index3
+	index: index
 };
