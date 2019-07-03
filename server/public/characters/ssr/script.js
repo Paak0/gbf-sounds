@@ -1,7 +1,7 @@
 let currentData = "ssr";
-//window.onload = loadSelect(currentData);
+window.onload = loadSelect(currentData);
 
-let chara = {};
+let chara;
 
 const soundNames = [
 	'them', 'us', 'ability_them', 'ability_us', 'mypage', 'cutin', 'win', 
@@ -86,15 +86,15 @@ function playSound(name){
 	chara[name].play();
 }
 
-// async function loadSelect(type){
-	// $('#charaSelect').children().remove('optgroup');
-	// const res = await fetch('../../api/v1/characters/'+type, {
-		// method: 'GET',
-		// headers: { 'Content-Type': 'application/json' }
-	// });
-	// const data = await res.json();
-	// loadCharacters(data);
-// }
+async function loadSelect(type){
+	$('#charaSelect').children().remove('optgroup');
+	const res = await fetch('../../api/v1/characters/'+type, {
+		method: 'GET',
+		headers: { 'Content-Type': 'application/json' }
+	});
+	const data = await res.json();
+	loadCharacters(data);
+}
 
 function loadCharacters(charactersOfType){
 	let name = '';

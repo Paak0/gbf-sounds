@@ -2,12 +2,19 @@ const express = require('express');
 const charactersController = require('../controllers/characters');
 const router = express.Router();
 
-router.get('/', charactersController.index);
+router.get('/', function(req, res){
+	return res.redirect('/characters/ssr');
+});
 
-router.get('/:name', function(req, res, next){
-	let name = req.params.name;
-	console.log(name);
-	next();
-}, charactersController.index);
+router.get('/:type', function(req, res){
+	let {type} = req.params;
+	console.log(type);
+	charactersController.index(req, res, type);
+});
+
+router.get('/:type/:name', function(req, res){
+	let {type = 'ssr', name = ''} = req.params;
+	charactersController.index(req, res, type, name);
+});
 
 module.exports = router;

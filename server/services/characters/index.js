@@ -16,9 +16,9 @@ function getCharacters(req, res){
 
 function getCharacter(req, res){
 	let {type, group, name} = req.params;
-	let arr = characters[type][group];
-	let character = arr.find( elem => {
-		return elem.name === name;
+	let character = characters[type][group].find( elem => {
+		let lower = elem.name.toLowerCase();
+		return lower === name.toLowerCase();
 	});
 	res.json(character);
 }
