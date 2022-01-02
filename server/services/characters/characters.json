@@ -1,1402 +1,2554 @@
-{
+﻿{
 	"ssr": {
-	
+
 		"normal": [
+
+			{
+				"name": "Abby",
+				"id": "3040284000",
+				"sounds": []
+			},
+
 			{
 				"name": "Agielba",
 				"id": "3040017000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
 				"name": "Aglovale",
 				"id": "3040192000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Albert",
 				"id": "3040045000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Albert (Dark)",
+				"id": "3040334000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
 			{
 				"name": "Aletheia",
 				"id": "3040002000",
-				"sounds": ["ability_them", "ability_us", "mypage", "win", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "win", "other" ]
 			},
-			
-			{
-				"name": "Alexiel",
-				"id": "3040158000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "hp_down", "power_down", "other"]
-			},
-			
+
 			{
 				"name": "Aliza",
 				"id": "3040083000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
 				"name": "Altair",
 				"id": "3040001000",
-				"sounds": ["ability_them", "ability_us", "mypage", "win", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "win", "other" ]
 			},
-			
+
 			{
-				"name": "Altair_5*",
+				"name": "Altair 5*",
 				"id": "3040001000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "evolution", "formation"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "evolution", "formation" ]
 			},
-			
+
 			{
 				"name": "Amira",
 				"id": "3040051000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
-			{
-				"name": "Andira",
-				"id": "3040071000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
-			},
-			
-			{
-				"name": "Andira_5*",
-				"id": "3040071000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "evolution", "formation", "to_player", "healed", "hp_down", "power_down", "other"]
-			},
-			
-			{
-				"name": "Anila",
-				"id": "3040027000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose"]
-			},
-			
-			{
-				"name": "Anila_5*",
-				"id": "3040027000_03",
-				"sounds": ["ability_them", "ability_us", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "evolution", "formation", "helaled", "hp_down", "power_down"]
-			},
-			
+
 			{
 				"name": "Anne",
 				"id": "3040132000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
 				"name": "Anthuria",
 				"id": "3040103000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
 				"name": "Aoidos",
 				"id": "3040076000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
-			{
-				"name": "Aqours_First-Years",
-				"id": "3040184000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
-			},
-			
-			{
-				"name": "Aqours_Second-Years",
-				"id": "3040183000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
-			},
-			
-			{
-				"name": "Aqours_Third-Years",
-				"id": "3040185000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
-			},
-			
+
 			{
 				"name": "Arriet",
 				"id": "3040058000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Arthur",
+				"id": "3040358000",
+				"sounds": []
+			},
+
 			{
 				"name": "Arulumaya",
 				"id": "3040019000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
 			},
-			
+
+			{
+				"name": "Arulumaya (Light)",
+				"id": "3040367000",
+				"sounds": []
+			},
+
 			{
 				"name": "Athena",
 				"id": "3040202000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Ayer",
 				"id": "3040084000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
 				"name": "Azazel",
 				"id": "3040137000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Azusa",
+				"id": "3040359000",
+				"sounds": []
+			},
+
+			{
+				"name": "Baal",
+				"id": "3040215000",
+				"sounds": []
+			},
+
 			{
 				"name": "Baotorda",
 				"id": "3040124000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
 				"name": "Beatrix",
 				"id": "3040070000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Black_Knight",
-				"id": "3040082000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "other"]
+				"name": "Beatrix (Earth)",
+				"id": "3040328000",
+				"sounds": []
 			},
-			
+
+			{
+				"name": "Benjamin",
+				"id": "3040366000",
+				"sounds": []
+			},
+
 			{
 				"name": "Cagliostro",
 				"id": "3040009000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "other" ]
 			},
-			
+
 			{
-				"name": "Cagliostro_(Dark)",
+				"name": "Cagliostro (Dark)",
 				"id": "3040120000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
-			{
-				"name": "Cain",
-				"id": "3040171000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
-			},
-			
+
 			{
 				"name": "Carmelina",
 				"id": "3040042000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Cassius",
+				"id": "3040326000",
+				"sounds": []
+			},
+
 			{
 				"name": "Catherine",
 				"id": "3040074000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
 				"name": "Cerberus",
 				"id": "3040016000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
-			{
-				"name": "Charioce_XVII",
-				"id": "3040144000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
-			},
-			
+
 			{
 				"name": "Charlotta",
 				"id": "3040010000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "other" ]
 			},
-			
+
 			{
-				"name": "Charlotta_(Light)",
+				"name": "Charlotta (Light)",
 				"id": "3040194000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
-				"name": "Chat_Noir",
+				"name": "Chat Noir",
 				"id": "3040093000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other" ]
 			},
-			
+
 			{
 				"name": "Christina",
 				"id": "3040018000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Christina 5*",
+				"id": "3040018000_03",
+				"sounds": []
+			},
+
 			{
 				"name": "Clarisse",
 				"id": "3040046000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Clarisse_(Light)",
+				"name": "Clarisse (Light)",
 				"id": "3040121000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Conan_Edogawa",
-				"id": "3040157000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"name": "Colossus",
+				"id": "3040235000",
+				"sounds": []
 			},
-			
+
 			{
 				"name": "Cucouroux",
 				"id": "3040159000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
 			},
-			
-			{
-				"name": "Cure_Black_and_Cure_White",
-				"id": "3040188000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "mortal", "zenith_up", "formation", "to_player", "healed", "hp_down", "power_down", "other"]
-			},
-			
+
 			{
 				"name": "Dante_and_Freiheit",
 				"id": "3040205000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
-				"name": "De_La_Fille",
+				"name": "Danua",
+				"id": "3040256000",
+				"sounds": []
+			},
+
+			{
+				"name": "De La Fille",
 				"id": "3040004000",
-				"sounds": ["ability_them", "ability_us", "mypage", "win", "special", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "win", "special", "other" ]
 			},
-			
+
 			{
-				"name": "De_La_Fille_(Earth)",
+				"name": "De La Fille (Earth)",
 				"id": "3040113000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Dorothy_and_Claudia",
+				"name": "Diantha",
+				"id": "3040296000",
+				"sounds": []
+			},
+
+			{
+				"name": "Dorothy and Claudia",
 				"id": "3040134000",
-				"sounds": ["ability_them", "ability_us", "cutin", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "cutin", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Drang",
-				"id": "3040119000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"name": "Drang (Fire)",
+				"id": "3040269000",
+				"sounds": []
 			},
-			
+
 			{
-				"name": "Eugen",
-				"id": "3040077000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"name": "Elmott",
+				"id": "3040356000",
+				"sounds": []
 			},
-			
+
 			{
-				"name": "Europa",
-				"id": "3040190000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"name": "Enyo",
+				"id": "3040365000",
+				"sounds": []
 			},
-			
+
 			{
 				"name": "Eustace",
 				"id": "3040069000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other" ]
 			},
-			
+
 			{
-				"name": "Eustace_(Dark)",
+				"name": "Eustace (Dark)",
 				"id": "3040198000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
+			{
+				"name": "Ewiyar",
+				"id": "3040378000",
+				"sounds": []
+			},
+
+			{
+				"name": "Farrah and Juri",
+				"id": "3040325000",
+				"sounds": []
+			},
+
+			{
+				"name": "Feather",
+				"id": "3040304000",
+				"sounds": []
+			},
+
 			{
 				"name": "Feena",
 				"id": "3040061000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
 				"name": "Ferry",
 				"id": "3040073000",
-				"sounds": ["them", "us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "them", "us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Filene",
+				"id": "3040314000",
+				"sounds": []
+			},
+
+			{
+				"name": "Fiorito",
+				"id": "3040305000",
+				"sounds": []
+			},
+
+			{
+				"name": "Florence",
+				"id": "3040299000",
+				"sounds": []
+			},
+
 			{
 				"name": "Forte",
 				"id": "3040086000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other" ]
 			},
-			
+
 			{
 				"name": "Freezie",
 				"id": "3040182000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Gawain",
 				"id": "3040000000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Gawain",
+				"id": "3040000000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Gawain 5*",
+				"id": "3040000000_03",
+				"sounds": []
+			},
+
+			{
+				"name": "Gawain (Light)",
+				"id": "3040298000",
+				"sounds": []
+			},
+
 			{
 				"name": "Ghandagoza",
 				"id": "3040052000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Ghandagoza_5*",
+				"name": "Ghandagoza 5*",
 				"id": "3040052000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "evolution", "formation", "to_player", "healed", "hp_down", "power_down"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "evolution", "formation", "to_player", "healed", "hp_down", "power_down" ]
 			},
-			
+
 			{
 				"name": "Grea",
 				"id": "3040130000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Grea (Light)",
+				"id": "3040355000",
+				"sounds": []
+			},
+
 			{
 				"name": "Hallessena",
 				"id": "3040079000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
 				"name": "Heles",
 				"id": "3040060000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Heles (Wind)",
+				"id": "3040208000",
+				"sounds": []
+			},
+
+			{
+				"name": "Herja",
+				"id": "3040271000",
+				"sounds": []
+			},
+
+			{
+				"name": "Illnott",
+				"id": "3040277000",
+				"sounds": []
+			},
+
 			{
 				"name": "Ilsa",
 				"id": "3040148000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
-				"name": "Io",
-				"id": "3040065000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"name": "Ilsa (Light)",
+				"id": "3040258000",
+				"sounds": []
 			},
-			
+
+			{
+				"name": "Isaac",
+				"id": "3040327000",
+				"sounds": []
+			},
+
 			{
 				"name": "Izmir",
 				"id": "3040100000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Jeanne_d'Arc",
+				"name": "Jeanne d'Arc",
 				"id": "3040040000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Jeanne_d'Arc_5*",
+				"name": "Jeanne d'Arc 5*",
 				"id": "3040040000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Jeanne_d'Arc_(Dark)",
+				"name": "Jeanne d'Arc (Dark)",
 				"id": "3040080000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Joker",
-				"id": "3040173000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"name": "Jin",
+				"id": "3040257000",
+				"sounds": []
 			},
-			
+
 			{
 				"name": "Juliet",
 				"id": "3040096000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Katalina",
-				"id": "3040054000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"name": "Juliet (Water)",
+				"id": "3040293000",
+				"sounds": []
 			},
-			
+
 			{
-				"name": "Katalina_(Dark)",
-				"id": "3040118000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"name": "Kolulu",
+				"id": "3040222000",
+				"sounds": []
 			},
-			
-			{
-				"name": "Kokkoro",
-				"id": "3040201000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down"]
-			},
-			
+
 			{
 				"name": "Korwa",
 				"id": "3040081000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Kumbhira",
-				"id": "3040197000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"name": "Kou",
+				"id": "3040242000",
+				"sounds": []
 			},
-			
+
 			{
-				"name": "Lady_Grey",
+				"name": "Ladiva",
+				"id": "3040217000",
+				"sounds": []
+			},
+
+			{
+				"name": "Lady Grey",
 				"id": "3040005000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Lady_Katapillar_and_Vira",
-				"id": "3040116000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"name": "Lady Grey 5*",
+				"id": "3040005000_03",
+				"sounds": []
 			},
-			
+
+			{
+				"name": "Lady Katapillar and Vira",
+				"id": "3040116000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Lamretta",
+				"id": "3040319000",
+				"sounds": []
+			},
+
 			{
 				"name": "Lancelot",
 				"id": "3040023000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Lancelot_(Wind)",
+				"name": "Lancelot (Wind)",
 				"id": "3040140000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
-				"name": "Lancelot_and_Vane",
+				"name": "Lancelot and Vane",
 				"id": "3040191000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
-			{
-				"name": "Lecia",
-				"id": "3040101000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "introduce", "evolution", "formation", "other"]
-			},
-			
+
 			{
 				"name": "Lennah",
 				"id": "3040021000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "turn_start", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "turn_start", "other" ]
 			},
-			
+
 			{
-				"name": "Lennah_5*",
+				"name": "Lennah 5*",
 				"id": "3040021000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "formation", "helaled", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "formation", "helaled", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
-				"name": "Levi",
-				"id": "3040142000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"name": "Lennah (Earth)",
+				"id": "3040340000",
+				"sounds": []
 			},
-			
+
 			{
-				"name": "Levin_Sisters",
+				"name": "Levin Sisters",
 				"id": "3040193000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Lilele",
 				"id": "3040066000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other" ]
 			},
-			
+
 			{
 				"name": "Lily",
 				"id": "3040007000",
-				"sounds": ["ability_them", "ability_us", "mypage", "win", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "win", "other" ]
 			},
-			
+
 			{
-				"name": "Lucio",
-				"id": "3040106000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"name": "Lily 5*",
+				"id": "3040007000_03",
+				"sounds": []
 			},
-			
+
+			{
+				"name": "Lucius",
+				"id": "3040254000",
+				"sounds": []
+			},
+
 			{
 				"name": "Lunalu",
 				"id": "3040172000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
 			},
-			
+
+			{
+				"name": "Lunalu (Light)",
+				"id": "3040364000",
+				"sounds": []
+			},
+
+			{
+				"name": "Macula Marius",
+				"id": "3040213000",
+				"sounds": []
+			},
+
 			{
 				"name": "Magisa",
 				"id": "3040011000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Mahira",
-				"id": "3040107000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"name": "Magisa 5*",
+				"id": "3040011000_03",
+				"sounds": []
 			},
-			
+
 			{
 				"name": "Marquiares",
 				"id": "3040108000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Medusa_(Promo)",
-				"id": "3040123000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"name": "Medusa",
+				"id": "3040214000",
+				"sounds": []
 			},
-			
+
 			{
 				"name": "Melissabelle",
 				"id": "3040102000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
 				"name": "Melleau",
 				"id": "3040022000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Melleau 5*",
+				"id": "3040022000_03",
+				"sounds": []
+			},
+
 			{
 				"name": "Metera",
 				"id": "3040012000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "turnend", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "turnend", "other" ]
 			},
-			
+
 			{
-				"name": "Metera_5*",
+				"name": "Metera 5*",
 				"id": "3040012000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "evolution", "formation", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "evolution", "formation", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
-				"name": "Metera_(Fire)",
+				"name": "Metera (Fire)",
 				"id": "3040072000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Mikazuki_Munechika",
-				"id": "3040131000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"name": "Milleore and Sahli Lao",
+				"id": "3040272000",
+				"sounds": []
 			},
-			
+
 			{
-				"name": "Monika",
+				"name": "Mireille and Risette",
+				"id": "3040302000",
+				"sounds": []
+			},
+
+			{
+				"name": "Mishra",
+				"id": "3040317000",
+				"sounds": []
+			},
+
+			{
+				"name": "Monika (Arcarum)",
 				"id": "3040186000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
+			{
+				"name": "Morrigna",
+				"id": "3040218000",
+				"sounds": []
+			},
+
+			{
+				"name": "Ms. Miranda",
+				"id": "3040339000",
+				"sounds": []
+			},
+
+			{
+				"name": "Naoise",
+				"id": "3040281000",
+				"sounds": []
+			},
+
+			{
+				"name": "Naoise (Fire)",
+				"id": "3040354000",
+				"sounds": []
+			},
+
 			{
 				"name": "Narmaya",
 				"id": "3040063000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other" ]
 			},
-			
+
 			{
-				"name": "Narmaya_5*",
+				"name": "Narmaya 5*",
 				"id": "3040063000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "evolution", "formation", "helaled", "hp_down", "power_down"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "evolution", "formation", "helaled", "hp_down", "power_down" ]
 			},
-			
+
+			{
+				"name": "Nectar",
+				"id": "3040318000",
+				"sounds": []
+			},
+
 			{
 				"name": "Nemone",
 				"id": "3040085000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "other" ]
 			},
-			
+
 			{
 				"name": "Nezahualpilli",
 				"id": "3040003000",
-				"sounds": ["ability_them", "ability_us", "mypage", "win", "special", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "win", "special", "other" ]
 			},
-			
+
+			{
+				"name": "Nezha",
+				"id": "3040332000",
+				"sounds": []
+			},
+
 			{
 				"name": "Nicholas",
 				"id": "3040156000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
-				"name": "Nina_Drango",
-				"id": "3040133000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"name": "Nicholas (Light)",
+				"id": "3040315000",
+				"sounds": []
 			},
-			
+
 			{
-				"name": "Olivia",
-				"id": "3040145000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"name": "Pengy",
+				"id": "3040282000",
+				"sounds": []
 			},
-			
-			{
-				"name": "Orchid",
-				"id": "3040111000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other"]
-			},
-			
+
 			{
 				"name": "Percival",
 				"id": "3040050000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other" ]
 			},
-			
+
 			{
-				"name": "Percival_5*",
+				"name": "Percival 5*",
 				"id": "3040050000_03",
-				"sounds": ["ability_them", "ability_us", "cutin", "win", "lose"]
+				"sounds": [ "ability_them", "ability_us", "cutin", "win", "lose" ]
 			},
-			
+
 			{
-				"name": "Pecorine",
-				"id": "3040200000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"name": "Percival (Light)",
+				"id": "3040279000",
+				"sounds": []
 			},
-			
+
 			{
 				"name": "Petra",
 				"id": "3040047000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Pholia",
-				"id": "3040181000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"name": "Predator",
+				"id": "3040278000",
+				"sounds": []
 			},
-			
+
 			{
-				"name": "Rackam",
-				"id": "3040059000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"name": "Randall",
+				"id": "3040368000",
+				"sounds": []
 			},
-			
+
 			{
 				"name": "Razia",
 				"id": "3040109000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
 				"name": "Robomi",
 				"id": "3040155000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Romeo",
 				"id": "3040098000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Romeo 5*",
+				"id": "3040098000_03",
+				"sounds": []
+			},
+
 			{
 				"name": "Rosamia",
 				"id": "3040087000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
-			{
-				"name": "Rosetta",
-				"id": "3040068000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
-			},
-			
-			{
-				"name": "Sakura_Kinomoto",
-				"id": "3040136000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
-			},
-			
+
 			{
 				"name": "Sandalphon",
 				"id": "3040153000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other", "20180228_navi"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other", "20180228_navi" ]
 			},
-			
+
 			{
 				"name": "Sara",
 				"id": "3040041000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other" ]
 			},
-			
+
+			{
+				"name": "Sara (Light)",
+				"id": "3040236000",
+				"sounds": []
+			},
+
 			{
 				"name": "Sarunan",
 				"id": "3040008000",
-				"sounds": ["ability_them", "ability_us", "mypage", "win", "turnend", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "win", "turnend", "other" ]
 			},
-			
+
 			{
-				"name": "Sarunan_5*",
+				"name": "Sarunan 5*",
 				"id": "3040008000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "formation", "helaled", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "formation", "helaled", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
-				"name": "Sarunan_(Dark)",
+				"name": "Sarunan (Dark)",
 				"id": "3040048000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other" ]
 			},
-			
+
+			{
+				"name": "Satyr",
+				"id": "3040280000",
+				"sounds": []
+			},
+
+			{
+				"name": "Satyr (Earth)",
+				"id": "3040375000",
+				"sounds": []
+			},
+
 			{
 				"name": "Scathacha",
 				"id": "3040122000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Scathacha_5*",
+				"name": "Scathacha 5*",
 				"id": "3040122000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down" ]
 			},
-			
+
 			{
 				"name": "Selfira",
 				"id": "3040175000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Sen",
 				"id": "3040204000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Seruel",
 				"id": "3040013000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Seruel_5*",
+				"name": "Seruel 5*",
 				"id": "3040013000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Shiva",
-				"id": "3040196000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"name": "Shion",
+				"id": "3040333000",
+				"sounds": []
 			},
-			
+
+			{
+				"name": "Shitori",
+				"id": "3040244000",
+				"sounds": []
+			},
+
+			{
+				"name": "Sho",
+				"id": "3040338000",
+				"sounds": []
+			},
+
+			{
+				"name": "Shura",
+				"id": "3040273000",
+				"sounds": []
+			},
+
 			{
 				"name": "Siegfried",
 				"id": "3040025000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Siegfried 5*",
+				"id": "3040025000_03",
+				"sounds": []
+			},
+
+			{
+				"name": "Siegfried (Fire)",
+				"id": "3040237000",
+				"sounds": []
+			},
+
 			{
 				"name": "Silva",
 				"id": "3040049000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Silva_5*",
+				"name": "Silva 5*",
 				"id": "3040049000_03",
-				"sounds": ["ability_them", "ability_us", "cutin", "win", "lose"]
+				"sounds": [ "ability_them", "ability_us", "cutin", "win", "lose" ]
 			},
-			
+
 			{
-				"name": "Silva_(Light)",
+				"name": "Silva (Light)",
 				"id": "3040187000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Societte",
 				"id": "3040044000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Societte_(Fire)",
+				"name": "Societte (Fire)",
 				"id": "3040095000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Societte (Wind)",
+				"id": "3040241000",
+				"sounds": []
+			},
+
 			{
 				"name": "Sophia",
 				"id": "3040024000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
 				"name": "Soriz",
 				"id": "3040170000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
 			},
-			
+
+			{
+				"name": "Soriz 5*",
+				"id": "3040170000_03",
+				"sounds": []
+			},
+
+			{
+				"name": "Stan and Aliza",
+				"id": "3040233000",
+				"sounds": []
+			},
+
 			{
 				"name": "Sturm",
-				"id": "3040115000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"id": "3040268000",
+				"sounds": []
 			},
-			
+
+			{
+				"name": "Sutera",
+				"id": "3040303000",
+				"sounds": []
+			},
+
+			{
+				"name": "Tabina",
+				"id": "3040234000",
+				"sounds": []
+			},
+
 			{
 				"name": "Tanya",
 				"id": "3040203000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Therese",
 				"id": "3040149000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Tiamat",
 				"id": "3040152000",
-				"sounds": ["other", "thisFine"]
+				"sounds": [ "other", "thisFine" ]
 			},
-			
+
+			{
+				"name": "Tiamat 5*",
+				"id": "3040152000_03",
+				"sounds": [ "other", "thisFine" ]
+			},
+
+			{
+				"name": "Tikoh",
+				"id": "3040337000",
+				"sounds": []
+			},
+
+			{
+				"name": "Troue",
+				"id": "3040336000",
+				"sounds": []
+			},
+
 			{
 				"name": "Tsubasa",
 				"id": "3040180000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
-			{
-				"name": "Vajra",
-				"id": "3040147000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
-			},
-			
+
 			{
 				"name": "Vane",
 				"id": "3040117000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Vane 5*",
+				"id": "3040117000_03",
+				"sounds": []
+			},
+
 			{
 				"name": "Vania",
 				"id": "3040057000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Vania 5*",
+				"id": "3040057000_03",
+				"sounds": []
+			},
+
+			{
+				"name": "Vania and Malinda",
+				"id": "3040264000",
+				"sounds": []
+			},
+
 			{
 				"name": "Vaseraga",
 				"id": "3040029000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Vaseraga_5*",
+				"name": "Vaseraga 5*",
 				"id": "3040029000_03",
-				"sounds": ["ability_them", "ability_us", "cutin", "win", "lose"]
+				"sounds": [ "ability_them", "ability_us", "cutin", "win", "lose" ]
 			},
-			
+
 			{
-				"name": "Vaseraga_(Earth)",
+				"name": "Vaseraga (Earth)",
 				"id": "3040146000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Vaseraga (Fire)",
+				"id": "3040324000",
+				"sounds": []
+			},
+
 			{
 				"name": "Veight",
 				"id": "3040094000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other" ]
 			},
-			
+
 			{
 				"name": "Vira",
 				"id": "3040043000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Vira_(Light)",
-				"id": "3040141000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"name": "Vira (Wind)",
+				"id": "3040211000",
+				"sounds": []
 			},
-			
+
 			{
-				"name": "Wulf_and_Renie",
+				"name": "Wulf and Renie",
 				"id": "3040174000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Yggdrasil",
 				"id": "3040125000",
-				"sounds": ["other", "thisFine"]
+				"sounds": [ "other", "thisFine" ]
 			},
-			
+
+			{
+				"name": "Yggdrasil 5*",
+				"id": "3040125000_03",
+				"sounds": [ "other", "thisFine" ]
+			},
+
 			{
 				"name": "Yngwie",
 				"id": "3040088000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Yngwie_5*",
+				"name": "Yngwie 5*",
 				"id": "3040088000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "evolution", "formation", "helaled", "hp_down", "power_down"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "evolution", "formation", "helaled", "hp_down", "power_down" ]
 			},
-			
+
 			{
 				"name": "Yodarha",
 				"id": "3040064000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Yodarha (Wind)",
+				"id": "3040259000",
+				"sounds": []
+			},
+
 			{
 				"name": "Yuel",
 				"id": "3040006000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Yuel_(Water)",
-				"id": "3040138000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"name": "Yuel 5*",
+				"id": "3040006000_03",
+				"sounds": []
 			},
-			
+
+			{
+				"name": "Yuel (Water)",
+				"id": "3040138000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
+			},
+
 			{
 				"name": "Yuisis",
 				"id": "3040105000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Yuisis (Fire)",
+				"id": "3040253000",
+				"sounds": []
+			},
+
 			{
 				"name": "Yurius",
 				"id": "3040199000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
+			{
+				"name": "Yurius 5*",
+				"id": "3040199000_03",
+				"sounds": []
+			},
+
 			{
 				"name": "Zahlhamelina",
 				"id": "3040075000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
 				"name": "Zeta",
 				"id": "3040028000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Zeta_(Dark)",
+				"name": "Zeta (Dark)",
 				"id": "3040112000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
+			{
+				"name": "Zeta (Water)",
+				"id": "3040323000",
+				"sounds": []
+			},
+
+			{
+				"name": "Zooey (Light)",
+				"id": "3040150000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
+			}
+		],
+
+		"grand": [
+
+			{
+				"name": "Alexiel",
+				"id": "3040158000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Black Knight",
+				"id": "3040082000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "other" ]
+			},
+
+			{
+				"name": "Black Knight 5*",
+				"id": "3040082000_03",
+				"sounds": []
+			},
+
+			{
+				"name": "Cagliostro",
+				"id": "3040320000",
+				"sounds": []
+			},
+
+			{
+				"name": "Cain",
+				"id": "3040171000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Drang",
+				"id": "3040119000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Eugen",
+				"id": "3040077000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Europa",
+				"id": "3040190000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Fediel",
+				"id": "3040376000",
+				"sounds": []
+			},
+
+			{
+				"name": "Ferry",
+				"id": "3040209000",
+				"sounds": []
+			},
+
+			{
+				"name": "Golden Knight",
+				"id": "3040297000",
+				"sounds": []
+			},
+
+			{
+				"name": "Grimnir",
+				"id": "3040212000",
+				"sounds": []
+			},
+
+			{
+				"name": "Helel ben Shalem",
+				"id": "3040251000",
+				"sounds": []
+			},
+
+			{
+				"name": "Io",
+				"id": "3040065000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Jeanne d'Arc",
+				"id": "3040245000",
+				"sounds": []
+			},
+
+			{
+				"name": "Katalina",
+				"id": "3040054000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Lancelot",
+				"id": "3040374000",
+				"sounds": []
+			},
+
+			{
+				"name": "Lecia",
+				"id": "3040101000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "introduce", "evolution", "formation", "other" ]
+			},
+
+			{
+				"name": "Leona",
+				"id": "3040285000",
+				"sounds": []
+			},
+
+			{
+				"name": "Lich",
+				"id": "3040357000",
+				"sounds": []
+			},
+
+			{
+				"name": "Lucio",
+				"id": "3040106000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Monika",
+				"id": "3040238000",
+				"sounds": []
+			},
+
+			{
+				"name": "Mugen",
+				"id": "3040267000",
+				"sounds": []
+			},
+
+			{
+				"name": "Narmaya",
+				"id": "3040335000",
+				"sounds": []
+			},
+
+			{
+				"name": "Nehan",
+				"id": "3040341000",
+				"sounds": []
+			},
+
+			{
+				"name": "Noa",
+				"id": "3040255000",
+				"sounds": []
+			},
+
+			{
+				"name": "Olivia",
+				"id": "3040145000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Orchid",
+				"id": "3040111000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other" ]
+			},
+
+			{
+				"name": "Orchid 5*",
+				"id": "3040111000_03",
+				"sounds": []
+			},
+
+			{
+				"name": "Pholia",
+				"id": "3040181000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Poseidon",
+				"id": "3040348000",
+				"sounds": []
+			},
+
+			{
+				"name": "Rackam",
+				"id": "3040059000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Rei",
+				"id": "3040265000",
+				"sounds": []
+			},
+
+			{
+				"name": "Reinhardtzar",
+				"id": "3040274000",
+				"sounds": []
+			},
+
+			{
+				"name": "Rosetta",
+				"id": "3040068000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Rosetta 5*",
+				"id": "3040068000_03",
+				"sounds": []
+			},
+
+			{
+				"name": "Sandalphon",
+				"id": "3040312000",
+				"sounds": []
+			},
+
+			{
+				"name": "Shiva",
+				"id": "3040196000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Sturm",
+				"id": "3040115000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Vira",
+				"id": "3040141000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
+			},
+
 			{
 				"name": "Zooey",
 				"id": "3040092000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
-			},
-			
-			{
-				"name": "Zooey_(Light)",
-				"id": "3040150000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
-			},
-			
-			{
-				"name": "Zooey_(Promo)",
-				"id": "3040078000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			}
+
 		],
-		
+
+		"zodiac": [
+
+			{
+				"name": "Andira",
+				"id": "3040071000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Andira 5*",
+				"id": "3040071000_03",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "evolution", "formation", "to_player", "healed", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Anila",
+				"id": "3040027000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose" ]
+			},
+
+			{
+				"name": "Anila 5*",
+				"id": "3040027000_03",
+				"sounds": [ "ability_them", "ability_us", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "evolution", "formation", "helaled", "hp_down", "power_down" ]
+			},
+
+			{
+				"name": "Kumbhira",
+				"id": "3040197000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Mahira",
+				"id": "3040107000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Mahira 5*",
+				"id": "3040107000_03",
+				"sounds": []
+			},
+
+			{
+				"name": "Vajra",
+				"id": "3040147000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Vajra 5*",
+				"id": "3040147000_03",
+				"sounds": []
+			},
+
+			{
+				"name": "Vikala",
+				"id": "3040252000",
+				"sounds": []
+			}
+
+		],
+
 		"summer": [
-			
+
 			{
-				"name": "Beatrix_(Summer)",
+				"name": "Albert (Summer)",
+				"id": "3040290000",
+				"sounds": []
+			},
+
+			{
+				"name": "Alexiel (Summer)",
+				"id": "3040232000",
+				"sounds": []
+			},
+
+			{
+				"name": "Amira (Summer)",
+				"id": "3040287000",
+				"sounds": []
+			},
+
+			{
+				"name": "Andira (Summer)",
+				"id": "3040330000",
+				"sounds": []
+			},
+
+			{
+				"name": "Anila (Summer)",
+				"id": "3040288000",
+				"sounds": []
+			},
+
+			{
+				"name": "Anthuria (Yukata)",
+				"id": "3040228000",
+				"sounds": []
+			},
+
+			{
+				"name": "Beatrix (Summer)",
 				"id": "3040110000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Danua_(Summer)",
+				"name": "Cagliostro (Summer)",
+				"id": "3040225000",
+				"sounds": []
+			},
+
+			{
+				"name": "Danua (Summer)",
 				"id": "3040055000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "De La Fille_(Summer)",
+				"name": "De La Fille (Summer)",
 				"id": "3040014000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Diantha_(Summer)",
+				"name": "Diantha (Summer)",
 				"id": "3040129000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Grea_(Summer)",
+				"name": "Europa (Summer)",
+				"id": "3040226000",
+				"sounds": []
+			},
+
+			{
+				"name": "Grea (Summer)",
 				"id": "3040179000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
-				"name": "Heles_(Summer)",
+				"name": "Halluel and Malluel (Summer)",
+				"id": "3040223000",
+				"sounds": []
+			},
+
+			{
+				"name": "Helel ben Shalem (Summer)",
+				"id": "3040351000",
+				"sounds": []
+			},
+
+			{
+				"name": "Heles (Summer)",
 				"id": "3040091000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Ilsa_(Summer)",
+				"name": "Illnott (Summer)",
+				"id": "3040345000",
+				"sounds": []
+			},
+
+			{
+				"name": "Ilsa (Summer)",
 				"id": "3040177000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
-				"name": "Io_(Summer)",
+				"name": "Io (Summer)",
 				"id": "3040015000",
-				"sounds": ["ability_them", "ability_us", "mypage", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Izmir_(Summer)",
+				"name": "Izmir (Summer)",
 				"id": "3040126000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Jeanne_d'Arc_(Summer)",
+				"name": "Izmir (Yukata)",
+				"id": "3040343000",
+				"sounds": []
+			},
+
+			{
+				"name": "Jeanne d'Arc (Summer)",
 				"id": "3040154000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
-				"name": "Korwa_(Summer)",
+				"name": "Kolulu (Summer)",
+				"id": "3040283000",
+				"sounds": []
+			},
+
+			{
+				"name": "Korwa (Summer)",
 				"id": "3040127000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Naoise_(Summer)",
+				"name": "Kumbhira (Summer)",
+				"id": "3040329000",
+				"sounds": []
+			},
+
+			{
+				"name": "Lucio (Summer)",
+				"id": "3040286000",
+				"sounds": []
+			},
+
+			{
+				"name": "Meg (Summer)",
+				"id": "3040346000",
+				"sounds": []
+			},
+
+			{
+				"name": "Metera (Summer)",
+				"id": "3040347000",
+				"sounds": []
+			},
+
+			{
+				"name": "Mimlemel (Summer)",
+				"id": "3040292000",
+				"sounds": []
+			},
+
+			{
+				"name": "Naoise (Summer)",
 				"id": "3040178000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
-				"name": "Narmaya_(Summer)",
+				"name": "Narmaya (Summer)",
 				"id": "3040089000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Percival_(Summer)",
+				"name": "Percival (Summer)",
 				"id": "3040090000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Rosetta_(Summer)",
+				"name": "Rosamia (Yukata)",
+				"id": "3040289000",
+				"sounds": []
+			},
+
+			{
+				"name": "Rosetta (Summer)",
 				"id": "3040176000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "to_player", "helaled", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "to_player", "helaled", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
-				"name": "Siegfried_(Summer)",
+				"name": "Sandalphon (Summer)",
+				"id": "3040224000",
+				"sounds": []
+			},
+
+			{
+				"name": "Shiva (Summer)",
+				"id": "3040352000",
+				"sounds": []
+			},
+
+			{
+				"name": "Siegfried (Summer)",
+				"id": "3040344000",
+				"sounds": []
+			},
+
+			{
+				"name": "Siegfried (Yukata)",
 				"id": "3040128000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-		
+
 			{
-				"name": "Vira_(Summer)",
+				"name": "Silva (Summer)",
+				"id": "3040291000",
+				"sounds": []
+			},
+
+			{
+				"name": "Tabina (Summer)",
+				"id": "3040350000",
+				"sounds": []
+			},
+
+			{
+				"name": "Teena (Summer)",
+				"id": "3040266000",
+				"sounds": []
+			},
+
+			{
+				"name": "Vira (Summer)",
 				"id": "3040053000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-		
+
 			{
-				"name": "Zeta_(Summer)",
+				"name": "Yngwie (Yukata)",
+				"id": "3040342000",
+				"sounds": []
+			},
+
+			{
+				"name": "Yuel (Summer)",
+				"id": "3040210000",
+				"sounds": []
+			},
+
+			{
+				"name": "Zahlhamelina (Yukata)",
+				"id": "3040349000",
+				"sounds": []
+			},
+
+			{
+				"name": "Zeta (Summer)",
 				"id": "3040056000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			}
 		],
-		
+
 		"valentine": [
+
 			{
-				"name": "Clarisse_(Valentine)",
-				"id": "3040062000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"name": "Aglovale (Valentine)",
+				"id": "3040322000",
+				"sounds": []
 			},
-			
+
 			{
-				"name": "Medusa_(Valentine)",
+				"name": "Clarisse (Valentine)",
+				"id": "3040062000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Grimnir (Valentine)",
+				"id": "3040261000",
+				"sounds": []
+			},
+
+			{
+				"name": "Medusa (Valentine)",
 				"id": "3040151000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Melissabelle (Valentine)",
+				"id": "3040207000",
+				"sounds": []
+			},
+
+			{
+				"name": "Monika (Valentine)",
+				"id": "3040321000",
+				"sounds": []
+			},
+
+			{
+				"name": "Scathacha (Valentine)",
+				"id": "3040260000",
+				"sounds": []
 			}
-			
+
 		],
-		
+
 		"halloween": [
-			
+
 			{
-				"name": "Cagliostro_(Halloween)",
+				"name": "Azazel (Halloween)",
+				"id": "3040300000",
+				"sounds": []
+			},
+
+			{
+				"name": "Cagliostro (Halloween)",
 				"id": "3040062000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Charlotta_(Halloween)",
+				"name": "Charlotta (Halloween)",
 				"id": "3040020000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Danua_(Halloween)",
+				"name": "Cucouroux (Halloween)",
+				"id": "3040361000",
+				"sounds": []
+			},
+
+			{
+				"name": "Danua (Halloween)",
 				"id": "3040135000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Eustace_(Halloween)",
+				"name": "Eustace (Halloween)",
 				"id": "3040099000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Lady_Grey_(Halloween)",
+				"name": "Hallessena (Halloween)",
+				"id": "3040240000",
+				"sounds": []
+			},
+
+			{
+				"name": "Lady_Grey (Halloween)",
 				"id": "3040189000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down" ]
+			},
+
+			{
+				"name": "Rosetta (Halloween)",
+				"id": "3040301000",
+				"sounds": []
+			},
+
+			{
+				"name": "Vane (Halloween)",
+				"id": "3040360000",
+				"sounds": []
+			},
+
+			{
+				"name": "Zeta and Vaseraga (Halloween)",
+				"id": "3040239000",
+				"sounds": []
 			}
-			
+
 		],
-		
+
 		"holiday": [
-			
+
 			{
-				"name": "Arulumaya_(Holiday)",
+				"name": "Altair (Holiday)",
+				"id": "3040373000",
+				"sounds": []
+			},
+
+			{
+				"name": "Anthuria (Holiday)",
+				"id": "3040369000",
+				"sounds": []
+			},
+
+			{
+				"name": "Arulumaya (Holiday)",
 				"id": "3040104000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Clarisse_(Holiday)",
+				"name": "Clarisse (Holiday)",
 				"id": "3040067000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Mary_(Holiday)",
+				"name": "Lily (Holiday)",
+				"id": "3040311000",
+				"sounds": []
+			},
+
+			{
+				"name": "Magisa (Holiday)",
+				"id": "3040247000",
+				"sounds": []
+			},
+
+			{
+				"name": "Mahira (Holiday)",
+				"id": "3040372000",
+				"sounds": []
+			},
+
+			{
+				"name": "Mary (Holiday)",
 				"id": "3040143000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
-				"name": "Metera_(Holiday)",
+				"name": "Meteon (Holiday)",
+				"id": "3040246000",
+				"sounds": []
+			},
+
+			{
+				"name": "Metera (Holiday)",
 				"id": "3040195000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down" ]
 			},
-			
+
 			{
-				"name": "Rosetta_(Holiday)",
+				"name": "Mirin (Holiday)",
+				"id": "3040307000",
+				"sounds": []
+			},
+
+			{
+				"name": "Narmaya (Holiday)",
+				"id": "3040249000",
+				"sounds": []
+			},
+
+			{
+				"name": "Nemone (Holiday)",
+				"id": "3040306000",
+				"sounds": []
+			},
+
+			{
+				"name": "Rosetta (Holiday)",
 				"id": "3040026000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Seruel (Holiday)",
+				"id": "3040250000",
+				"sounds": []
 			}
-			
+
 		],
-		
+
 		"eternals": [
-		
+
 			{
 				"name": "Anre",
 				"id": "3040030000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Anre_5*",
+				"name": "Anre 5*",
 				"id": "3040030000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose" ]
 			},
-		
+
 			{
 				"name": "Tweyen",
 				"id": "3040031000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Tweyen_5*",
+				"name": "Tweyen 5*",
 				"id": "3040031000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
 				"name": "Threo",
 				"id": "3040032000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Threo_5*",
+				"name": "Threo 5*",
 				"id": "3040032000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose" ]
 			},
-			
+
 			{
 				"name": "Feower",
 				"id": "3040033000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other" ]
 			},
-			
+
 			{
-				"name": "Feower_5*",
+				"name": "Feower 5*",
 				"id": "3040033000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose" ]
 			},
-			
+
 			{
 				"name": "Fif",
 				"id": "3040034000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "player_gauge", "other" ]
 			},
-			
+
 			{
-				"name": "Fif_5*",
+				"name": "Fif 5*",
 				"id": "3040034000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose" ]
 			},
-			
+
 			{
 				"name": "Seox",
 				"id": "3040035000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Seox_5*",
+				"name": "Seox 5*",
 				"id": "3040035000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose" ]
 			},
-			
+
+			{
+				"name": "Seox (Event)",
+				"id": "3040262000",
+				"sounds": []
+			},
+
 			{
 				"name": "Seofon",
 				"id": "3040036000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Seofon_5*",
+				"name": "Seofon 5*",
 				"id": "3040036000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose" ]
 			},
-			
+
 			{
 				"name": "Eahta",
 				"id": "3040037000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Eahta_5*",
+				"name": "Eahta 5*",
 				"id": "3040037000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose" ]
 			},
-			
+
 			{
 				"name": "Niyon",
 				"id": "3040038000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Niyon_5*",
+				"name": "Niyon 5*",
 				"id": "3040038000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose" ]
 			},
-			
+
 			{
 				"name": "Tien",
 				"id": "3040039000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
 			},
-			
+
 			{
-				"name": "Tien_5*",
+				"name": "Tien 5*",
 				"id": "3040039000_03",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose" ]
 			}
-			
+
 		],
-		
+
 		"arcarum": [
-			
+
 			{
 				"name": "Alanaan",
 				"id": "3040167000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Caim",
 				"id": "3040164000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Estarriola",
 				"id": "3040163000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Fraux",
 				"id": "3040161000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Geisenborger",
 				"id": "3040162000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Haaselia",
 				"id": "3040168000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Katzelia",
 				"id": "3040166000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Lobelia",
 				"id": "3040165000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Maria Theresa",
 				"id": "3040160000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			},
-			
+
 			{
 				"name": "Nier",
 				"id": "3040169000",
-				"sounds": ["ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other"]
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
 			}
-			
+
+		],
+
+		"collab": [
+
+			{
+				"name": "Aqours First-Years",
+				"id": "3040184000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Aqours Second-Years",
+				"id": "3040183000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "introduce", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Aqours Second-Years 5*",
+				"id": "3040183000_03",
+				"sounds": []
+			},
+
+			{
+				"name": "Aqours Third-Years",
+				"id": "3040185000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Bobobo-bo Bo-bobo",
+				"id": "3040331000",
+				"sounds": []
+			},
+
+			{
+				"name": "Conan Edogawa",
+				"id": "3040157000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Cure Black and Cure White",
+				"id": "3040188000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "mortal", "zenith_up", "formation", "to_player", "healed", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Doraemon",
+				"id": "3040370000",
+				"sounds": []
+			},
+
+			{
+				"name": "Gachapin",
+				"id": "3040248000",
+				"sounds": []
+			},
+
+			{
+				"name": "Hiro Ryugasaki",
+				"id": "3040294000",
+				"sounds": []
+			},
+
+			{
+				"name": "Joker",
+				"id": "3040173000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Kaede Takagaki",
+				"id": "3040276000",
+				"sounds": []
+			},
+
+			{
+				"name": "Kallen Kouzuki",
+				"id": "3040221000",
+				"sounds": []
+			},
+
+			{
+				"name": "Karyl",
+				"id": "3040216000",
+				"sounds": []
+			},
+
+			{
+				"name": "Kokkoro",
+				"id": "3040201000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down" ]
+			},
+
+			{
+				"name": "Kyojuro Rengoku",
+				"id": "3040309000",
+				"sounds": []
+			},
+
+			{
+				"name": "Lelouch Lamperouge",
+				"id": "3040219000",
+				"sounds": []
+			},
+
+			{
+				"name": "Levi",
+				"id": "3040142000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Mikazuki Munechika",
+				"id": "3040131000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Mimori Amamiya",
+				"id": "3040295000",
+				"sounds": []
+			},
+
+			{
+				"name": "New Generations",
+				"id": "3040275000",
+				"sounds": []
+			},
+
+			{
+				"name": "Nobita",
+				"id": "3040371000",
+				"sounds": []
+			},
+
+			{
+				"name": "Pecorine",
+				"id": "3040200000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "evolution", "formation", "archive", "to_player", "healed", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Sakura Kinomoto",
+				"id": "3040136000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Shinobu Kocho",
+				"id": "3040310000",
+				"sounds": []
+			},
+
+			{
+				"name": "Shinsengumi",
+				"id": "3040362000",
+				"sounds": []
+			},
+
+			{
+				"name": "Suzaku Kururugi",
+				"id": "3040220000",
+				"sounds": []
+			},
+
+			{
+				"name": "Tanjiro, Nezuko, Zenitsu, and Inosuke",
+				"id": "3040308000",
+				"sounds": []
+			},
+
+			{
+				"name": "Yorozuya",
+				"id": "3040363000",
+				"sounds": []
+			},
+
+			{
+				"name": "μ's First-Years",
+				"id": "3040229000",
+				"sounds": []
+			},
+
+			{
+				"name": "μ's Second-Years",
+				"id": "3040230000",
+				"sounds": []
+			},
+
+			{
+				"name": "μ's Third-Years",
+				"id": "3040231000",
+				"sounds": []
+			},
+
+			{
+				"name": "μ's Third-Years 5*",
+				"id": "3040231000_03",
+				"sounds": []
+			}
+
+		],
+
+		"promo": [
+
+			{
+				"name": "Black Knight and Orchis",
+				"id": "3040270000",
+				"sounds": []
+			},
+
+			{
+				"name": "Charioce XVII",
+				"id": "3040144000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "attack", "kill", "ready", "mortal", "damage", "dying", "zenith_up", "runk_up", "introduce", "evolution", "formation", "helaled", "hp_down", "power_down", "other" ]
+			},
+
+			{
+				"name": "Katalina (Dark)",
+				"id": "3040118000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Medusa (Promo)",
+				"id": "3040123000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Nina Drango",
+				"id": "3040133000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			},
+
+			{
+				"name": "Vira (Promo)",
+				"id": "3040243000",
+				"sounds": []
+			},
+
+			{
+				"name": "Zooey (Promo)",
+				"id": "3040078000",
+				"sounds": [ "ability_them", "ability_us", "mypage", "cutin", "win", "lose", "other" ]
+			}
+
 		]
 		
 	},
