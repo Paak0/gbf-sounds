@@ -1,8 +1,46 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<% include ./partials/head %>
 	<script src="/sounds.js"></script>
+	<script>
+        $(function () {
+            const slider = $('.images-wrapper');
+            let isDown = false;
+            let startX;
+            let scrollLeft;
+
+            slider.on("mousedown", (e) => {
+                isDown = true;
+                slider.addClass('active');
+                startX = e.pageX - slider.offset().left;
+                scrollLeft = slider.scrollLeft();
+            });
+            slider.on("mouseleave", () => {
+				isDown = false;
+				slider.removeClass('active');
+			});
+            slider.on("mouseup", () => {
+				isDown = false;
+				slider.removeClass('active');
+			});
+            slider.on("mousemove", (e) => {
+				if (!isDown) return;
+				e.preventDefault();
+				const x = e.pageX - slider.offset().left;
+				const walk = (x - startX) * 2;
+				slider.scrollLeft(scrollLeft - walk);
+			});
+
+			$(".image").click(function () {
+				let img = $(this);
+				$(".image.active").removeClass("active");
+                img.addClass("active");
+
+				let id = img.data("id");
+			});
+        });
+	</script>
 </head>
 
 <body>
@@ -11,35 +49,211 @@
 	</header>
 
 	<div class="wrapper">
-		<div class="selectBox">
-			<select id="charaSelect" name="Character" onchange="changeChara()">
-				<option value="Character">Character</option>
-				<% for(let key in data){ %>
-					<optgroup label='<%= key.toUpperCase() %>'/>
-					<% for(let i = 0; i< data[key].length; i++){ %>
-						<option value='<%= data[key][i].name %>'><%= data[key][i].name %></option>
-					<% } %>
-				<% } %>
-			</select>
-
-			<select id="optional" name="Character" onchange="">
-				<option value="">default</option>
-				<option value="a">a</option>
-				<option value="b">b</option>
-				<option value="c">c</option>
-				<option value="_a">_a</option>
-				<option value="_b">_b</option>
-				<option value="_c">_c</option>
-				<option value="_1">_1</option>
-				<option value="_2">_2</option>
-				<option value="_3">_3</option>
-				<option value="_mix">_mix</option>
-			</select>
-
-			<button id="showall" style="box-shadow: none !important;" onclick="showAllSounds()">Show all</button>
+		<div class="letters content">
+			<center>
+				<span>A</span>
+				<span>B</span>
+				<span>C</span>
+				<span>D</span>
+				<span>E</span>
+				<span>F</span>
+				<span>G</span>
+				<span>H</span>
+				<span>I</span>
+				<span>J</span>
+				<span>K</span>
+				<span>L</span>
+				<span>M</span>
+				<span>N</span>
+				<span>O</span>
+				<span>P</span>
+				<span>R</span>
+				<span>S</span>
+				<span>T</span>
+				<span>U</span>
+				<span>W</span>
+				<span>X</span>
+				<span>Y</span>
+				<span>Z</span>
+				<span>μ</span>
+			</center>
 		</div>
 
-		<div class="container">
+		<div class="images-wrapper">
+			<div class="images">
+				<% data2.forEach(function(chara) { %>
+				<div class="item" data-id="<%= chara.id %>" data-name="<%= chara.name %>" data-element="<%= chara.element %>" data-style="<%= chara.style %>" data-type="<%= chara.type %>" data-gender="<%= chara.gender %>">
+					<img class="image" src="/images/characters/<%= chara.id %>.png" title="<%= chara.name %>" alt="<%= chara.name %>" />
+					<p><%= chara.name %></p>
+				</div>
+				<% }); %>
+			</div>
+		</div>
+
+		<div>
+			<center>
+				<div class="filter content hidden">
+					<p>Element</p>
+					<div id="divElement">
+						<div class="checkbox">
+							<input type="checkbox" id="chbFire" name="Fire">
+							<label for="chbFire">
+								<img style="object-position: 0 0.05%" src="/images/filter.png" title="Fire" alt="Fire"/>
+							</label>
+						</div>
+
+						<div class="checkbox">
+							<input type="checkbox" id="chbWater" name="Water">
+							<label for="chbWater">
+								<img style="object-position: 0 2.8%" src="/images/filter.png" title="Water" alt="Water"/>
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" id="chbEarth" name="Earth">
+							<label for="chbEarth">
+								<img style="object-position: 0 5.55%" src="/images/filter.png" title="Earth" alt="Earth"/>
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" id="chbWind" name="Wind">
+							<label for="chbWind">
+								<img style="object-position: 0 8.3%" src="/images/filter.png" title="Wind" alt="Wind"/>
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" id="chbLight" name="Light">
+							<label for="chbLight">
+								<img style="object-position: 0 11.05%" src="/images/filter.png" title="Light" alt="Light"/>
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" id="chbDark" name="Dark">
+							<label for="chbDark">
+								<img style="object-position: 0 13.75%" src="/images/filter.png" title="Dark" alt="Dark"/>
+							</label>
+						</div>
+					</div>
+					<p>Style</p>
+					<div id="divStyle">
+						<div class="checkbox">
+							<input type="checkbox" id="chbBalanced" name="Balanced">
+							<label for="chbBalanced">
+								<img style="object-position: 0 17%" src="/images/filter.png" title="Balanced" alt="Balanced"/>
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" id="chbAttack" name="Attack">
+							<label for="chbAttack">
+								<img style="object-position: 0 19.7%" src="/images/filter.png" title="Attack" alt="Attack"/>
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" id="chbDefense" name="Defense">
+							<label for="chbDefense">
+								<img style="object-position: 0 22.6%" src="/images/filter.png" title="Defense" alt="Defense"/>
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" id="chbHeal" name="Heal">
+							<label for="chbHeal">
+								<img style="object-position: 0 25.4%" src="/images/filter.png" title="Heal" alt="Heal"/>
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" id="chbSpecial" name="Special">
+							<label for="chbSpecial">
+								<img style="object-position: 0 28.3%" src="/images/filter.png" title="Special" alt="Special"/>
+							</label>
+						</div>
+					</div>
+					<p>Type</p>
+					<div id="divType">
+						<div class="checkbox">
+							<input type="checkbox" id="chbHuman" name="Human">
+							<label for="chbHuman">
+								<img style="object-position: 0 31.4%" src="/images/filter.png" title="Human" alt="Human"/>
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" id="chbErune" name="Erune">
+							<label for="chbErune">
+								<img style="object-position: 0 34.50%" src="/images/filter.png" title="Erune" alt="Erune"/>
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" id="chbDraph" name="Draph">
+							<label for="chbDraph">
+								<img style="object-position: 0 37.75%" src="/images/filter.png" title="Draph" alt="Draph"/>
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" id="chbHarvin" name="Harvin">
+							<label for="chbHarvin">
+								<img style="object-position: 0 40.6%" src="/images/filter.png" title="Harvin" alt="Harvin"/>
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" id="chbPrimal" name="Primal">
+							<label for="chbPrimal">
+								<img style="object-position: 0 43.50%" src="/images/filter.png" title="Primal" alt="Primal"/>
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" id="chbOther" name="Other">
+							<label for="chbOther">
+								<img style="object-position: 0 46.4%" src="/images/filter.png" title="Other" alt="Other"/>
+							</label>
+						</div>
+					</div>
+					<p>Gender</p>
+					<div id="divGender">
+						<div class="checkbox">
+							<input type="checkbox" id="chbMale" name="Male">
+							<label for="chbMale">
+								<img style="object-position: 0 82%" src="/images/filter.png" title="Male" alt="Male" />
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" id="chbFemale" name="Female">
+							<label for="chbFemale">
+								<img style="object-position: 0 85.15%" src="/images/filter.png" title="Female" alt="Female" />
+							</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" id="chbGenderOther" name="Other">
+							<label for="chbGenderOther">
+								<img style="object-position: 0 88.2%" src="/images/filter.png" title="Other" alt="Other" />
+							</label>
+						</div>
+					</div>
+					<button id="btnApplyFilter">Apply</button>
+					<button id="btnResetFilter">Reset</button>
+				</div>
+			</center>
+		</div>
+
+		<div class="selectBox content">
+			<center>
+				<select id="optional" name="Character" onchange="">
+					<option value="">default</option>
+					<option value="a">a</option>
+					<option value="b">b</option>
+					<option value="c">c</option>
+					<option value="_a">_a</option>
+					<option value="_b">_b</option>
+					<option value="_c">_c</option>
+					<option value="_1">_1</option>
+					<option value="_2">_2</option>
+					<option value="_3">_3</option>
+					<option value="_mix">_mix</option>
+				</select>
+
+				<button id="showall">Show all</button>
+				<button id="btnFilter">Filter</button>
+			</center>
+		</div>
+
+		<div class="container content">
 			<div class="grid">
 				<div id="themBox" class="flex">
 					<div class="box">
@@ -51,7 +265,7 @@
 						<button id="button1" onclick="playSound('them')"></button>
 						<button onclick="prev('them', 1)">-</button>
 						<button onclick="next('them', 1)">+</button>
-						<button id="link1" class="link"><p2>LINK</p2></button>
+						<button id="link1" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -65,7 +279,7 @@
 						<button id="button2" onclick="playSound('us')"></button>
 						<button onclick="prev('us', 2)">-</button>
 						<button onclick="next('us', 2)">+</button>
-						<button id="link2" class="link"><p2>LINK</p2></button>
+						<button id="link2" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -79,7 +293,7 @@
 						<button id="button3" onclick="playSound('ability_them')"></button>
 						<button onclick="prev('ability_them', 3)">-</button>
 						<button onclick="next('ability_them', 3)">+</button>
-						<button id="link3" class="link"><p2>LINK</p2></button>
+						<button id="link3" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -93,7 +307,7 @@
 						<button id="button4" onclick="playSound('ability_us')"></button>
 						<button onclick="prev('ability_us', 4)">-</button>
 						<button onclick="next('ability_us', 4)">+</button>
-						<button id="link4" class="link"><p2>LINK</p2></button>
+						<button id="link4" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -107,7 +321,7 @@
 						<button id="button5" onclick="playSound('mypage')"></button>
 						<button onclick="prev('mypage', 5)">-</button>
 						<button onclick="next('mypage', 5)">+</button>
-						<button id="link5" class="link"><p2>LINK</p2></button>
+						<button id="link5" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -121,7 +335,7 @@
 						<button id="button6" onclick="playSound('cutin')"></button>
 						<button onclick="prev('cutin', 6)">-</button>
 						<button onclick="next('cutin', 6)">+</button>
-						<button id="link6" class="link"><p2>LINK</p2></button>
+						<button id="link6" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -135,7 +349,7 @@
 						<button id="button7" onclick="playSound('win')"></button>
 						<button onclick="prev('win', 7)">-</button>
 						<button onclick="next('win', 7)">+</button>
-						<button id="link7" class="link"><p2>LINK</p2></button>
+						<button id="link7" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -149,7 +363,7 @@
 						<button id="button8" onclick="playSound('lose')"></button>
 						<button onclick="prev('lose', 8)">-</button>
 						<button onclick="next('lose', 8)">+</button>
-						<button id="link8" class="link"><p2>LINK</p2></button>
+						<button id="link8" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -160,7 +374,7 @@
 						<button id="button9" onclick="playSound('turn_start')"></button>
 						<button onclick="prev('turn_start', 9)">-</button>
 						<button onclick="next('turn_start', 9)">+</button>
-						<button id="link9" class="link"><p2>LINK</p2></button>
+						<button id="link9" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -171,7 +385,7 @@
 						<button id="button10" onclick="playSound('turnend')"></button>
 						<button onclick="prev('turnend', 10)">-</button>
 						<button onclick="next('turnend', 10)">+</button>
-						<button id="link10" class="link"><p2>LINK</p2></button>
+						<button id="link10" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -185,7 +399,7 @@
 						<button id="button11" onclick="playSound('attack')"></button>
 						<button onclick="prev('attack', 11)">-</button>
 						<button onclick="next('attack', 11)">+</button>
-						<button id="link11" class="link"><p2>LINK</p2></button>
+						<button id="link11" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -199,7 +413,7 @@
 						<button id="button12" onclick="playSound('kill')"></button>
 						<button onclick="prev('kill', 12)">-</button>
 						<button onclick="next('kill', 12)">+</button>
-						<button id="link12" class="link"><p2>LINK</p2></button>
+						<button id="link12" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -213,7 +427,7 @@
 						<button id="button13" onclick="playSound('ready')"></button>
 						<button onclick="prev('ready', 13)">-</button>
 						<button onclick="next('ready', 13)">+</button>
-						<button id="link13" class="link"><p2>LINK</p2></button>
+						<button id="link13" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -227,7 +441,7 @@
 						<button id="button14" onclick="playSound('mortal')"></button>
 						<button onclick="prev('mortal', 14)">-</button>
 						<button onclick="next('mortal', 14)">+</button>
-						<button id="link14" class="link"><p2>LINK</p2></button>
+						<button id="link14" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -241,7 +455,7 @@
 						<button id="button15" onclick="playSound('damage')"></button>
 						<button onclick="prev('damage', 15)">-</button>
 						<button onclick="next('damage', 15)">+</button>
-						<button id="link15" class="link"><p2>LINK</p2></button>
+						<button id="link15" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -255,7 +469,7 @@
 						<button id="button16" onclick="playSound('dying')"></button>
 						<button onclick="prev('dying', 16)">-</button>
 						<button onclick="next('dying', 16)">+</button>
-						<button id="link16" class="link"><p2>LINK</p2></button>
+						<button id="link16" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -269,7 +483,7 @@
 						<button id="button17" onclick="playSound('zenith_up')"></button>
 						<button onclick="prev('zenith_up', 17)">-</button>
 						<button onclick="next('zenith_up', 17)">+</button>
-						<button id="link17" class="link"><p2>LINK</p2></button>
+						<button id="link17" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -283,7 +497,7 @@
 						<button id="button18" onclick="playSound('runk_up')"></button>
 						<button onclick="prev('runk_up', 18)">-</button>
 						<button onclick="next('runk_up', 18)">+</button>
-						<button id="link18" class="link"><p2>LINK</p2></button>
+						<button id="link18" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -297,7 +511,7 @@
 						<button id="button19" onclick="playSound('introduce')"></button>
 						<button onclick="prev('introduce', 19)">-</button>
 						<button onclick="next('introduce', 19)">+</button>
-						<button id="link19" class="link"><p2>LINK</p2></button>
+						<button id="link19" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -311,7 +525,7 @@
 						<button id="button20" onclick="playSound('evolution')"></button>
 						<button onclick="prev('evolution', 20)">-</button>
 						<button onclick="next('evolution', 20)">+</button>
-						<button id="link20" class="link"><p2>LINK</p2></button>
+						<button id="link20" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -325,7 +539,7 @@
 						<button id="button21" onclick="playSound('formation')"></button>
 						<button onclick="prev('formation', 21)">-</button>
 						<button onclick="next('formation', 21)">+</button>
-						<button id="link21" class="link"><p2>LINK</p2></button>
+						<button id="link21" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -339,7 +553,7 @@
 						<button id="button22" onclick="playSound('archive')"></button>
 						<button onclick="prev('archive', 22)">-</button>
 						<button onclick="next('archive', 22)">+</button>
-						<button id="link22" class="link"><p2>LINK</p2></button>
+						<button id="link22" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -353,7 +567,7 @@
 						<button id="button23" onclick="playSound('to_player')"></button>
 						<button onclick="prev('to_player', 23)">-</button>
 						<button onclick="next('to_player', 23)">+</button>
-						<button id="link23" class="link"><p2>LINK</p2></button>
+						<button id="link23" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -364,7 +578,7 @@
 						<button id="button24" onclick="playSound('healed')"></button>
 						<button onclick="prev('healed', 24)">-</button>
 						<button onclick="next('healed', 24)">+</button>
-						<button id="link24" class="link"><p2>LINK</p2></button>
+						<button id="link24" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -375,7 +589,7 @@
 						<button id="button25" onclick="playSound('helaled')"></button>
 						<button onclick="prev('helaled', 25)">-</button>
 						<button onclick="next('helaled', 25)">+</button>
-						<button id="link25" class="link"><p2>LINK</p2></button>
+						<button id="link25" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -389,7 +603,7 @@
 						<button id="button26" onclick="playSound('power_down')"></button>
 						<button onclick="prev('power_down', 26)">-</button>
 						<button onclick="next('power_down', 26)">+</button>
-						<button id="link26" class="link"><p2>LINK</p2></button>
+						<button id="link26" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -403,7 +617,7 @@
 						<button id="button27" onclick="playSound('hp_down')"></button>
 						<button onclick="prev('hp_down', 27)">-</button>
 						<button onclick="next('hp_down', 27)">+</button>
-						<button id="link27" class="link"><p2>LINK</p2></button>
+						<button id="link27" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -417,7 +631,7 @@
 						<button id="button28" onclick="playSound('player_gauge')"></button>
 						<button onclick="prev('player_gauge', 28)">-</button>
 						<button onclick="next('player_gauge', 28)">+</button>
-						<button id="link28" class="link"><p2>LINK</p2></button>
+						<button id="link28" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -431,7 +645,7 @@
 						<button id="button29" onclick="playSound('special')"></button>
 						<button onclick="prev('special', 29)">-</button>
 						<button onclick="next('special', 29)">+</button>
-						<button id="link29" class="link"><p2>LINK</p2></button>
+						<button id="link29" class="link">LINK</button>
 					</div>
 				</div>
 
@@ -445,7 +659,7 @@
 						<button id="button30" onclick="playSound('v_')"></button>
 						<button onclick="prev('v_', 30)">-</button>
 						<button onclick="next('v_', 30)">+</button>
-						<button id="link30" class="link"><p2>LINK</p2></button>
+						<button id="link30" class="link">LINK</button>
 					</div>
 				</div>
 			</div>
