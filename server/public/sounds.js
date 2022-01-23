@@ -1,32 +1,29 @@
 $(function () {
-	const slider = $('.images-wrapper');
-	let isDown = false;
-	let startX = 0;
+	let isPressed = false;
+	let xOffset = 0;
 	let scrollLeft;
+	let slider = $('.images-wrapper');
 
 	slider.on("mousedown", (e) => {
-		isDown = true;
+		isPressed = true;
 		slider.addClass('active');
-		startX = e.pageX - slider.offset().left;
-		
+		xOffset = e.pageX - slider.offset().left;
 		scrollLeft = slider.scrollLeft();
 	});
-	slider.on("mouseleave", () => {
-		isDown = false;
-		slider.removeClass('active');
-	});
-	slider.on("mouseup", () => {
-		isDown = false;
-		slider.removeClass('active');
-	});
+	slider.on("mouseup", cancelSlide);
+	slider.on("mouseleave", cancelSlide);
 	slider.on("mousemove", (e) => {
-		if (!isDown) return;
+		if (!isPressed) return;
 		e.preventDefault();
-
 		const x = e.pageX - slider.offset().left;
-		const walk = (x - startX) * 2;
+		const walk = (x - xOffset) * 2;
 		slider.scrollLeft(scrollLeft - walk);
 	});
+
+	function cancelSlide() {
+		isPressed = false;
+		slider.removeClass('active');
+	}
 
 	$(".item").click(async function () {
 		let item = $(this);
@@ -103,6 +100,10 @@ $(function () {
 		//	return $("#divElement").find("input:checked").map(function () { return this.name; }).toArray().includes($(this).data("element"));
 		//}).addClass("hidden");
 
+	});
+
+	$("#btnResetFilter").click(() => {
+		$(".filter input[type=checkbox]").prop('checked', false);
 	});
 });
 
